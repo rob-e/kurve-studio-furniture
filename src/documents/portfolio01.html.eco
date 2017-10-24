@@ -1,0 +1,40 @@
+---
+title: "Portfolio (tables, cabinets, trays, miscellaneous)"
+shortTitle: "Portfolio"
+layout: "default"
+pageType: main
+order: 2
+---
+
+<!-- portfolio template -->
+<main id="content" role="main">
+	<h2>Portfolio</h2>
+	<!-- categories -> portfolio; also be nice to do list programmatically id="categories" -->
+	<ul class="gallery gallery--highlight">
+
+		<% for page in @getCollection("portfolio").toJSON(): %>
+			<% if page.order is 1: %>
+				<li class="first">
+			        <h3>
+						<a href="<%= @getUrl(page) %>">
+							<img src="<%= page.thumbSrc %>" alt="" title="" width="" height="" />
+							<span class="heading"><%= page.shortTitle %></span>
+						</a>
+					</h3>
+				</li>
+			<% else: %>
+				<li>
+			        <h3>
+						<a href="<%= @getUrl(page) %>">
+							<img src="<%= page.thumbSrc %>" alt="" title="" width="" height="" />
+							<span class="heading"><%= page.shortTitle %></span>
+						</a>
+					</h3>
+				</li>
+			<% end %>
+	    <% end %>	    
+	</ul>
+	<p class="photo-attribution">
+		All photos by Goran Basaric.
+	</p>									
+</main>

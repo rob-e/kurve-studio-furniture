@@ -1,0 +1,16 @@
+---
+title: "cabinet gallery"
+shortTitle: "Cabinets"
+layout: "portfolio"
+pageType: portfolio
+order: 3
+# thumbSrc: "images/gallery-landing-cabinet01.jpg"
+thumbSrc: "images/cabinets/cabinet-douglas-fir-01.jpg"
+---
+			
+<main id="content" role="main">
+	<h2>Cabinets</h2>
+
+	<%-@partial('item-gallery.html.eco', @, {galleryTitle:'cabinets'})%>
+	
+</main>

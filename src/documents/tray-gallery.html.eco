@@ -1,0 +1,16 @@
+---
+title: "tray gallery"
+shortTitle: "Trays"
+layout: "portfolio"
+pageType: portfolio
+order: 4
+# thumbSrc: "images/gallery-landing-trays.jpg"
+thumbSrc: "images/trays/set-of-3-ebony-trays.jpg"
+---
+			
+<main id="content" role="main">
+	<h2>Trays</h2>
+
+	<%-@partial('item-gallery.html.eco', @, {galleryTitle:'trays'})%>
+	
+</main>

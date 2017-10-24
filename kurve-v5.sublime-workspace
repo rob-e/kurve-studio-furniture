@@ -1,0 +1,1232 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"slid",
+				"slideshowEl"
+			],
+			[
+				"other",
+				"otherTeamsAlert"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"h",
+				"h3	Tag"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"di",
+				"div"
+			],
+			[
+				"if",
+				"ife	if … else … end"
+			],
+			[
+				"tru",
+				"true"
+			],
+			[
+				"sho",
+				"shortTitle"
+			],
+			[
+				"poker",
+				"pokerForm"
+			],
+			[
+				"ma",
+				"makePlayersWithHands"
+			],
+			[
+				"pl",
+				"players"
+			],
+			[
+				"get",
+				"getPreppedInputs"
+			],
+			[
+				"prep",
+				"prepUserInputs"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"bl",
+				"blankIndex"
+			],
+			[
+				"handC",
+				"handCategoriesARR"
+			],
+			[
+				"to",
+				"toUpperCase"
+			],
+			[
+				"po",
+				"PokerGame"
+			],
+			[
+				"winner",
+				"winnerStr"
+			],
+			[
+				"contender",
+				"contendersCount"
+			],
+			[
+				"find",
+				"findHandRank"
+			],
+			[
+				"contend",
+				"contendersCount"
+			],
+			[
+				"contenders",
+				"contendersArr"
+			],
+			[
+				"has",
+				"hasHand"
+			],
+			[
+				"conten",
+				"contendersArr"
+			],
+			[
+				"ba",
+				"barking"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"we",
+				"welcome"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"s",
+				"style"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"con",
+				"contenders2DArr"
+			],
+			[
+				"player",
+				"playerHand"
+			],
+			[
+				"revi",
+				"reviewGame"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"rev",
+				"reviewGame"
+			],
+			[
+				"pla",
+				"playerObjArr"
+			],
+			[
+				"Po",
+				"PokerGame"
+			],
+			[
+				"ge",
+				"getPlayerName"
+			],
+			[
+				"play",
+				"playerObjArr"
+			],
+			[
+				"input",
+				"inputArr"
+			],
+			[
+				"inpu",
+				"inputEnd"
+			],
+			[
+				"go",
+				"goOn"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"b",
+				"text-bottom"
+			],
+			[
+				"html",
+				"html5shiv"
+			],
+			[
+				"ht",
+				"html5shiv"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"backg",
+				"background-position"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"back",
+				"background"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "docpad-notes",
+			"settings":
+			{
+				"buffer_size": 5055,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "docpad.coffee",
+			"settings":
+			{
+				"buffer_size": 1948,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/partials/footer.html.eco",
+			"settings":
+			{
+				"buffer_size": 1292,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/documents/index.html",
+			"settings":
+			{
+				"buffer_size": 733,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/documents/styles/kurve-style.css",
+			"settings":
+			{
+				"buffer_size": 16751,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Whoever/Documents/Websites/www.honkytonkdilettantes.dev/wp-content/themes/htd-theme/functions.php",
+			"settings":
+			{
+				"buffer_size": 4393,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "houzz-code.txt",
+			"settings":
+			{
+				"buffer_size": 3072,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/partials/header.html.eco",
+			"settings":
+			{
+				"buffer_size": 529,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/documents/contact.html",
+			"settings":
+			{
+				"buffer_size": 2267,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "",
+			"file": "out/404.html",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/documents/process.html",
+			"settings":
+			{
+				"buffer_size": 2026,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/layouts/default.html.eco",
+			"settings":
+			{
+				"buffer_size": 2881,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/files/vendor/jquery.cycle.all.min.js",
+			"settings":
+			{
+				"buffer_size": 31197,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/files/vendor/kurve-init.js",
+			"settings":
+			{
+				"buffer_size": 1140,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/documents/portfolio01.html.eco",
+			"settings":
+			{
+				"buffer_size": 1229,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/documents/commissions.html",
+			"settings":
+			{
+				"buffer_size": 1654,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Set Syntax: HTML"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"sava",
+				"Project: Save As"
+			],
+			[
+				"sav",
+				"Project: Save As"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Whoever/Desktop/projects-archive/kurve/kurve-v5/src/documents/scripts/kurve-init.js",
+		"/C/Users/Whoever/Desktop/HTD-materialize-sass/js/init.js",
+		"/C/Users/Whoever/Desktop/projects-archive/kurve/kurve-v5/src/files/vendor/helper.js",
+		"/C/Users/Whoever/Desktop/HTD-materialize-sass/sass/style.scss",
+		"/C/Users/Whoever/Desktop/kurve-v5/src/documents/find.html",
+		"/C/Users/Whoever/Desktop/kurve-v5/src/documents/shows-events-press.html",
+		"/C/Users/Whoever/Desktop/kurve-v5/out/bio.html",
+		"/C/Users/Whoever/Desktop/kurve-v5/out/cabinet-gallery.html",
+		"/C/Users/Whoever/Desktop/kurve-v5/out/commissions.html",
+		"/C/Users/Whoever/Desktop/kurve-v5/out/contact.html",
+		"/C/Users/Whoever/Desktop/kurve-v5/out/find.html",
+		"/C/Users/Whoever/Desktop/kurve-v5/out/index.html",
+		"/C/Users/Whoever/Desktop/kurve-v5/out/miscellaneous-gallery.html",
+		"/C/Users/Whoever/Desktop/kurve-v5/out/portfolio01.html",
+		"/C/Users/Whoever/Desktop/kurve-v5/out/process.html",
+		"/C/Users/Whoever/Desktop/kurve-v5/out/shows-events-press.html",
+		"/C/Users/Whoever/Desktop/kurve-v5/out/table-gallery.html",
+		"/C/Users/Whoever/Desktop/kurve-v5/out/tray-gallery.html",
+		"/C/Users/Whoever/Desktop/bps-staging-package-apr-20-b/bps-main.css",
+		"/C/Users/Whoever/Desktop/kurve-v5/src/layouts/default.html.eco",
+		"/C/Users/Whoever/Desktop/kurve-v5/src/layouts/portfolio.html.eco",
+		"/C/Users/Whoever/Desktop/kurve-v5/src/layouts/item-variant.html.eco",
+		"/C/Users/Whoever/Desktop/kurve-v5/src/layouts/item.html.eco",
+		"/C/Users/Whoever/Desktop/kurve-v5/kurve-v5-scraps",
+		"/C/Users/Whoever/Desktop/pulp-fiction/examples.css",
+		"/C/Users/Whoever/Desktop/kurve-v5/kurve-v5.sublime-project",
+		"/C/Users/Whoever/Desktop/kurve-v5/kurve-v5.sublime-workspace",
+		"/C/Users/Whoever/Desktop/kurve-v5/src/partials/item-gallery.html.eco",
+		"/C/Users/Whoever/Desktop/kurve-v5/src/documents/cabinet-gallery.html.eco",
+		"/C/Users/Whoever/Desktop/kurve-v5/src/documents/miscellaneous-gallery.html.eco",
+		"/C/Users/Whoever/Desktop/kurve-v5/src/partials/header.html.eco",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/npm-debug.log",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/partials/item-gallery.html.eco",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/cabinet-gallery.html.eco",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/tray-gallery.html.eco",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/miscellaneous-gallery.html.eco",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/styles/kurve-ie876.css",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/styles/kurve-style.css",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/contact.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/table-gallery.html.eco",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/partials/footer.html.eco",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/partials/header.html.eco",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/layouts/item.html.eco",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/cabinets/cabinet-bowfront-bordello.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/portfolio.html.eco",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/out/bio.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/out/styles/kurve-style.css",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/out/index.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/out/cabinets/cabinet-bowfront-bordello.html",
+		"/E/Rob/webdev/conetec/mvc-booklist.js",
+		"/E/Rob/webdev/popupTest.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/bio.html",
+		"/C/Users/Owner/Desktop/rob/next_level_codetest/Boggle/boggle_bot.cpp",
+		"/C/Users/Owner/Desktop/rob/next_level_codetest/Boggle/boggle_bot.h",
+		"/C/Users/Owner/Desktop/rob/next_level_codetest/Boggle/boggle_driver.cpp",
+		"/E/Rob/kurve-v4/find.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/files/vendor/html5shiv/dist/html5shiv.js",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/files/vendor/html5shiv.js",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/contact",
+		"/C/Users/Owner/Desktop/billy-atlantic-sapphire/Atlantic Sapphire – The Revolution of Atlantic Salmon.htm",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/files/vendor/html5shiv/src/html5shiv.js",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/package.json",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/cabinets/cabinet-bowfront-mr-heavy.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/tables/dining-table-jj-glass.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/miscellaneous/storage-unit.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/miscellaneous/stool-kurve-arbutus.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/scrapyard/miscellaneous-gallery-01.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/miscellaneous/stools-kurve.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/trays/tray-set-3-douglas-fir.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/miscellaneous-gallery.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/scrapyard/tray-gallery-01.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/trays/tray-set-3-ebony.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/trays/small-tray-ebony.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/trays/tray-set-2-arbutus-burl.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/trays/tray-elliptical-ebony.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/trays/tray-elliptical-quilted-maple.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/trays/tray-elliptical-walnut-burl.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/trays/tray-rectangular-french-walnut.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/trays/tray-rectangular-koa.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/trays/tray-tapered-french-walnut.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/scrapyard/tray-galery-1.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/tray-gallery.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/cabinets/cabinet-deco-waterfall.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/cabinets/cabinet-flat-front.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/cabinets/cabinet-bowfront-sliding-door.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/cabinets/credenza-bowed-front.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/cabinets/media-console-bowfront.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/cabinets/credenza-arc.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/cabinets/cabinet-bowfront-small.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/cabinets/liquor-cabinet-bowed-front.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/cabinets/cabinet-swiss-cream.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/cabinets/cabinet-doug-fir.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/scrapyard/cabinet-gallery01.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/tables/side-table-flat-topper-macassar.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/layouts/default.html.eco",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/cabinet-gallery.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/scrapyard/table-gallery03.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/tables/side-tables-c.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/tables/side-table-tulip.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/tables/coffee-table-red-x.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/tables/hall-table-2-drawer.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/tables/entrance-table-tulip.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/tables/coffee-table-sunburst-elliptical.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/tables/coffee-table-swiss-cream.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/tables/dining-table-mm.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/tables/hall-table-arc-mahogany.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/tables/coffee-table-arc-koa.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/tables/side-table-compass-western-maple.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/tables/coffee-table-elliptical-western-maple.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/tables/entrance-table-mm.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/tables/console-table.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/tables/coffee-table-rectilinear-macassar-ebony.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/tables/coffee-table-elliptical-walnut-burl.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/tables/side-table-flat-topper-claro-walnut.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/tables/side-table-flat-topper-french-walnut.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/commissions.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/find.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/shows-events-press.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/layouts/portfolio.html.eco",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/documents/table-gallery.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/scrapyard/table-gallery01.html",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/scrapyard/table-gallery02.html",
+		"/C/Users/Owner/Desktop/rob/pointy-hat-poker/js/poker.js",
+		"/C/Users/Owner/AppData/Roaming/Sublime Text 2/Packages/User/Plain text.sublime-settings",
+		"/C/Users/Owner/Desktop/rob/kurve-v5/src/layouts/table-gallery.html.eco"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"smtp status=0",
+			"status=0",
+			"alert",
+			"dropped variable",
+			"cashMgmtTeamAlerted",
+			"widget",
+			"home",
+			"dos",
+			"url",
+			"address",
+			"/img/",
+			"bg.jpg",
+			".default",
+			"li ",
+			"li",
+			"/img/",
+			".clearfix",
+			"img/",
+			"img",
+			"href=\"",
+			"img/",
+			"the-process",
+			"img",
+			"bg",
+			"btn ",
+			"determiningRank",
+			"card",
+			"toUpperCase()",
+			"reviewGame",
+			"massageInput",
+			"myPoker",
+			"analyseHand",
+			"BPreplayBold",
+			"'BPreplayBold'",
+			"em",
+			"colour",
+			"F58220",
+			"E25203",
+			".category",
+			"category",
+			"section4c",
+			"section4",
+			" ",
+			"bpreplay",
+			"fonts",
+			"size",
+			"layout",
+			"copyright",
+			"block-currency",
+			"header-row",
+			"Free Shipping",
+			"bpreplay",
+			".page-title",
+			"verdana",
+			"fancybox",
+			"Verda",
+			"&#8482",
+			"&#8212",
+			"<!--",
+			"typography",
+			"blockquote",
+			"width=\"420\" height=\"315\"",
+			"Packing%20Guidelines%20_%20Vancouver%20Movers_files",
+			"Packing%20Guidelines",
+			".page-top",
+			"2013",
+			"13",
+			"2013",
+			"isMultipleOfKind",
+			"getType",
+			"getHandType",
+			"pokerGame",
+			"<h1><a href=\"index.html\">",
+			"<a href=\"index.html\">",
+			"Bootstrap,%20from%20Twitter_files",
+			"paid",
+			"	#wrap ",
+			"site-info",
+			"\n<!-- Polyfill (place after CSS) -->\n	<!--[if lt IE 9]><script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script><![endif]-->\n",
+			"<!-- Polyfill (place after CSS) -->",
+			"<!--[if lt IE 9]><script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script><![endif]-->",
+			"small",
+			"<ul>\n				<li><a href=\"../table-gallery.html\">tables</a></li>\n				<li><a href=\"../cabinet-gallery.html\">cabinets</a></li>\n				<li><a href=\"../tray-gallery.html\">trays</a></li>\n				<li><a href=\"../miscellaneous-gallery.html\">miscellaneous</a></li>\n			</ul>",
+			"<!-- For all browsers -->\n	<link rel=\"stylesheet\" href=\"../css/kurve-style.css\">\n\n	<!-- Polyfills (place after CSS) -->\n	<!--[if lt IE 9]><script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script><![endif]-->\n	<!--[if lte IE 8]><script src=\"http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js\"></script><![endif]-->",
+			"<!-- For all browsers -->\n	<link rel=\"stylesheet\" href=\"css/kurve-style.css\">",
+			"<!--[if lte IE 8]><script src=\"http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js\"></script><![endif]-->",
+			"<!-- Move down before closing body tag??? ->\n	<!--[if lte IE 8]><script src=\"http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js\"></script><![endif]-->\n	<!--[if lte IE 8]><script src=\"scripts/css3-mediaqueries.js\"></script><![endif]-->",
+			"images/gallery",
+			"seating",
+			"images/gallery",
+			"<!DOCTYPE html>\n<!--[if lt IE 7]><html lang=\"en\" class=\"ie6\"><![endif]--> \n<!--[if IE 7]><html lang=\"en\" class=\"ie7\"><![endif]--> \n<!--[if IE 8]><html lang=\"en\" class=\"ie8\"><![endif]--> \n<!--[if IE 9]><html lang=\"en\" class=\"ie9\"><![endif]--> \n<!--[if gt IE 9]><html lang=\"en\"><![endif]-->\n<!--[if !IE]>--><html lang=\"en\"><!--<![endif]-->\n<head>\n	<meta charset=\"utf-8\">\n	<meta name=\"viewport\" content=\"width=device-width, maximum-scale=1.0\">\n\n	<title>Kurve studio: Rectilinear coffee table (curly black walnut)</title>\n\n	<meta name=\"author\" content=\"\">\n	<meta name=\"description\" content=\"Original designs by Enrico Konig using solid woods, veneers, sometimes metal. Construction methods combining modern technologies with old-world techniques.\" />\n	<meta name=\"keywords\" content=\"Enrico Konig, studio furniture, kurve studio furniture vancouver bc, kurve furniture, enrico konig furniture, studio furniture\" />\n\n	<!-- http://t.co/dKP3o1e -->\n	<meta name=\"HandheldFriendly\" content=\"True\">\n	<meta name=\"MobileOptimized\" content=\"320\">\n\n	<!-- Icons -->\n\n	<!-- 16x16 -->\n	<link rel=\"shortcut icon\" href=\"/favicon.ico\">\n	<!-- 32x32 -->\n	<link rel=\"shortcut icon\" href=\"/favicon.png\">\n	<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->\n	<!-- <link rel=\"apple-touch-icon-precomposed\" href=\"img/apple-touch-icon-precomposed.png\"> -->\n	<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->\n	<!-- <link rel=\"apple-touch-icon-precomposed\" sizes=\"72x72\" href=\"img/apple-touch-icon-72x72-precomposed.png\"> -->\n	<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->\n	<!-- <link rel=\"apple-touch-icon-precomposed\" sizes=\"114x114\" href=\"img/apple-touch-icon-114x114-precomposed.png\"> -->\n	<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->\n	<!-- <link rel=\"apple-touch-icon-precomposed\" sizes=\"144x144\" href=\"img/apple-touch-icon-144x144-precomposed.png\"> -->\n\n	<!--iOS -->\n	<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n	<!-- <meta name=\"apple-mobile-web-app-title\" content=\"320 and Up\"> -->\n	<!-- <meta name=\"viewport\" content=\"initial-scale=1.0\"> (Use if apple-mobile-web-app-capable below is set to yes) -->\n	<!-- <meta name=\"apple-mobile-web-app-capable\" content=\"yes\"> -->\n	<!-- <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\"> -->\n\n	<!-- For all browsers -->\n	<link rel=\"stylesheet\" href=\"../css/kurve-style.css\">\n\n	<!-- Move down before closing body tag??? ->\n	<!--[if lte IE 8]><script src=\"http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js\"></script><![endif]-->\n	<!--[if lte IE 8]><script src=\"scripts/css3-mediaqueries.js\"></script><![endif]-->\n\n	<!-- Windows 8 / RT -->\n	<meta name=\"msapplication-TileImage\" content=\"img/apple-touch-icon-144x144-precomposed.png\">\n	<meta name=\"msapplication-TileColor\" content=\"#000\">\n	<meta http-equiv=\"cleartype\" content=\"on\">\n\n</head>\n\n<body>\n\n	<div id=\"wrap\">\n		\n		<header role=\"banner\">\n\n			<div>\n				<h1><a href=\"index.html\"><img src=\"../img/kurve1.gif\" alt=\"Kurve, studio furniture\" width=\"107\" /></a></h1>\n				<address>\n					<b>enrico k&#246;nig</b>	\n					suite 250, 975 vernon drive <br />\n					vancouver, BC, V6A 3P2\n					<span>cell 604.805.7205 &nbsp; shop 604.255.0165</span>\n					<a href=\"mailto:enricokonig@kurve.ca\">enricokonig@kurve.ca</a>\n				</address>\n			</div>\n								   \n		</header>\n\n		<div id=\"body\">\n				\n			<nav>\n				<ul>\n					<li><a href=\"../index.html\">home</a></li>			\n					<li id=\"galleries\">\n						<a href=\"../portfolio.html\">portfolio</a>\n						<ul>\n							<li id=\"activePg\"><a href=\"../table-gallery.html\">tables</a></li>\n							<li><a href=\"../cabinet-gallery.html\">cabinets</a></li>\n							<li><a href=\"../tray-gallery.html\">trays</a></li>\n							<li><a href=\"../miscellaneous-gallery.html\">miscellaneous</a></li>\n						</ul>\n					</li>			\n					<li><a href=\"../bio.html\">Bio</a></li>\n					<li><a href=\"../process.html\">Process</a></li>\n					<li><a href=\"../find.html\">where to find</a></li>\n					<li><a href=\"../commission.html\">commissions</a></li>\n					<li><a href=\"../shows.html\">shows, events, press</a></li>\n				</ul>\n			</nav>\n			\n			<div id=\"content\" class=\"item variant\">\n				\n				<h2 id=\"base-item-type\">Rectilinear coffee table</h2>\n				<ul>\n					<li><a href=\"coffee-table-rectilinear-macassar-ebony.html\">Macassar ebony</a></li>\n					<li><a href=\"coffee-table-rectilinear-painted.html\">Painted</a></li>\n					<li><a href=\"coffee-table-rectilinear-koa.html\">Koa</a></li>\n					<li><a href=\"coffee-table-rectilinear-2006.html\">Cherry</a></li>\n					<li class=\"end current\">Black walnut</li>\n				</ul>\n				\n				<h2>Black walnut</h2>\n				<p>\n					A thick rectilinear top cantilevered over a low-slung arch. Two large surfaces to \n					showcase some of the world's most beautiful woods. Bookmatched patterns continue \n					straight over the ends. Offered in two standard sizes, 50\" x 28\" x 11.5\", and 43\" \n					x 24\" x 11.5\". But both wood and size can be customized (see the \n					<a href=\"rectilinear-table-in-koa.html\">Koa</a> version for an example).\n				</p>\n				<div id=\"details\">\n					<h3>Length 43\" &nbsp; Width 24\" &nbsp; Height 11.5\"</h3>\n					<p>\n						Curly black walnut\n					</p>\n					<p>	\n					    Finished with pre-catalyzed lacquer\n					</p>\n				</div>\n				\n				<!-- height=\"355\" -->\n				<img src=\"../img/tables/rectilinearTbl08-1.jpg\" width=\"535\" alt=\"\" />\n				<img src=\"../img/tables/rectilinearTbl08-2.jpg\" width=\"535\" alt=\"\" />\n				<img src=\"../img/tables/rectilinearTbl08-3.jpg\" width=\"535\" alt=\"\" />\n				\n				<div>\n			        <a href=\"../table-gallery.html\">Tables</a>\n			        <a href=\"#header\" class=\"page-top\">Page top <span>&#8593;</span></a>\n			    </div>\n\n			</div>\n\n		</div>\n\n	</div>\n\n	<footer role=\"contentinfo\">\n		<div>\n			<small>Portfolio Contents</small>\n			<ul>\n				<li><a href=\"../table-gallery.html\">tables</a></li>\n				<li><a href=\"../cabinet-gallery.html\">cabinets</a></li>\n				<li><a href=\"../tray-gallery.html\">trays</a></li>\n				<li><a href=\"../miscellaneous-gallery.html\">miscellaneous</a></li>\n			</ul>\n		</div>\n	</footer>\n\n	<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js\"></script>\n	<script>window.jQuery || document.write('<script src=\"js/jquery-1.7.2.min.js\"><\\/script>')</script>\n\n	<!-- google analytics -->\n	<script type=\"text/javascript\">\n		var _gaq = _gaq || [];\n		_gaq.push(['_setAccount', 'UA-21369601-1']);\n		_gaq.push(['_trackPageview']);\n		\n		(function() {\n		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\n		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);\n		})();	\n	</script>\n\n</body>\n</html>",
+			"margin-top: 15px;",
+			"columned",
+			"img",
+			"width:",
+			"min-width: 480px",
+			"query",
+			"footer",
+			"min-height",
+			"footer",
+			"html",
+			"footer",
+			"header",
+			"#body",
+			".home",
+			"body",
+			"html",
+			"footer"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/images/",
+			"images/",
+			"images",
+			"href=\"images/",
+			"href=\"images",
+			"",
+			"href=\"images/",
+			"images/",
+			"process",
+			"images",
+			"myPokerSpace",
+			"width=\"300\" height=\"225\"",
+			"Vancouver%20Movers%20_%20Vancouver%20Moving%20_%20VanCity%20Moving_files",
+			"Vancouver%20Movers",
+			"<h1><a href=\"../index.html\">",
+			"",
+			"<a href=\"../index.html\">\n		<script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n		<script type=\"text/javascript\">window.html5 || document.write('<script type=\"text/javascript\" src=\"js/html5shiv/dist/html5shiv.js\"><\\/script>')</script>\n<!-- Polyfill & fallback (place after CSS) -->\n	<!--[if lt IE 9]>\n		<script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n		<script type=\"text/javascript\">window.html5 || document.write('<script type=\"text/javascript\" src=\"../js/html5shiv/dist/html5shiv.js\"><\\/script>')</script>\n<!-- Polyfill & fallback (place after CSS) -->\n	<!--[if lt IE 9]>\n		<script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n		<script type=\"text/javascript\">window.html5 || document.write('<script type=\"text/javascript\" src=\"../js/html5shiv/dist/html5shiv.js\"><\\/script>')</script>\n	<![endif]-->",
+			"js\n		<script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n		<script type=\"text/javascript\">window.html5 || document.write('<script type=\"text/javascript\" src=\"js/html5shiv/dist/html5shiv.js\"><\\/script>')</script>\n<!-- Polyfill & fallback (place after CSS) -->\n	<!--[if lt IE 9]>\n		<script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n		<script type=\"text/javascript\">window.html5 || document.write('<script type=\"text/javascript\" src=\"../js/html5shiv/dist/html5shiv.js\"><\\/script>')</script>\n<!-- Polyfill & fallback (place after CSS) -->\n	<!--[if lt IE 9]>\n		<script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n		<script type=\"text/javascript\">window.html5 || document.write('<script type=\"text/javascript\" src=\"../js/html5shiv/dist/html5shiv.js\"><\\/script>')</script>\n	<![endif]-->",
+			"<!--[if lt IE 9]>\n		<script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n		<script type=\"text/javascript\">window.html5 || document.write('<script type=\"text/javascript\" src=\"js/html5shiv/dist/html5shiv.js\"><\\/script>')</script>\n<!-- Polyfill & fallback (place after CSS) -->\n	<!--[if lt IE 9]>\n		<script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n		<script type=\"text/javascript\">window.html5 || document.write('<script type=\"text/javascript\" src=\"../js/html5shiv/dist/html5shiv.js\"><\\/script>')</script>\n<!-- Polyfill & fallback (place after CSS) -->\n	<!--[if lt IE 9]>\n		<script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n		<script type=\"text/javascript\">window.html5 || document.write('<script type=\"text/javascript\" src=\"../js/html5shiv/dist/html5shiv.js\"><\\/script>')</script>\n	<![endif]-->",
+			"<!--[if lt IE 9]>\n		<script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n		<script type=\"text/javascript\">window.html5 || document.write('<script type=\"text/javascript\" src=\"js/html5shiv/dist/html5shiv.js\"><\\/script>')</script>\n<!-- Polyfill & fallback (place after CSS) -->\n	<!--[if lt IE 9]>\n		<script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n		<script type=\"text/javascript\">window.html5 || document.write('<script type=\"text/javascript\" src=\"../js/html5shiv/dist/html5shiv.js\"><\\/script>')</script>\n	<![endif]-->",
+			"<!--[if lt IE 9]>\n		<script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n		<script type=\"text/javascript\">window.html5 || document.write('<script type=\"text/javascript\" src=\"js/html5shiv/dist/html5shiv.js\"><\\/script>')</script>\n<!-- Polyfill & fallback (place after CSS) -->",
+			"<!--[if lt IE 9]>\n		<script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n		<script type=\"text/javascript\">window.html5 || document.write('<script type=\"text/javascript\" src=\"js/html5shiv/dist/html5shiv.js\"><\\/script>')</script>\n	<![endif]-->",
+			"<nav>\n				<ul>\n					<li><a href=\"../table-gallery.html\">tables</a></li>\n					<li><a href=\"../cabinet-gallery.html\">cabinets</a></li>\n					<li><a href=\"../tray-gallery.html\">trays</a></li>\n					<li><a href=\"../miscellaneous-gallery.html\">miscellaneous</a></li>\n				</ul>\n			</nav>",
+			"<!-- CSS -->\n	<!--[if gte IE 9]><!--><link rel=\"stylesheet\" href=\"../css/kurve-style.css\"><!--<![endif]-->\n	<!--[if lt IE 9]><link rel=\"stylesheet\" href=\"../css/kurve-ie876.css\"><![endif]-->\n\n	<!-- Polyfill (place after CSS) -->\n	<!--[if lt IE 9]><script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script><![endif]-->",
+			"<!-- CSS -->\n	<!--[if gte IE 9]><!--><link rel=\"stylesheet\" href=\"css/kurve-style.css\"><!--<![endif]-->\n	<!--[if lt IE 9]><link rel=\"stylesheet\" href=\"css/kurve-ie876.css\"><![endif]-->",
+			"",
+			"googlecode",
+			"",
+			"<!-- Polyfills (place after CSS) -->\n	<!--[if lt IE 9]><script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script><![endif]-->\n	<!--[if lte IE 8]><script src=\"http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js\"></script><![endif]-->",
+			"img/miscellaneous",
+			"miscellaneous",
+			"img/miscellaneous",
+			"img/trays",
+			"img/cabinets"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "docpad-notes",
+					"settings":
+					{
+						"buffer_size": 5055,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								254,
+								254
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 714.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "docpad.coffee",
+					"settings":
+					{
+						"buffer_size": 1948,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								853,
+								835
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 84.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/partials/footer.html.eco",
+					"settings":
+					{
+						"buffer_size": 1292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/documents/index.html",
+					"settings":
+					{
+						"buffer_size": 733,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								458,
+								458
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/documents/styles/kurve-style.css",
+					"settings":
+					{
+						"buffer_size": 16751,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12894,
+								12894
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8459.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/Whoever/Documents/Websites/www.honkytonkdilettantes.dev/wp-content/themes/htd-theme/functions.php",
+					"settings":
+					{
+						"buffer_size": 4393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "houzz-code.txt",
+					"settings":
+					{
+						"buffer_size": 3072,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3072,
+								3072
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 336.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/partials/header.html.eco",
+					"settings":
+					{
+						"buffer_size": 529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								494,
+								430
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/documents/contact.html",
+					"settings":
+					{
+						"buffer_size": 2267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1892,
+								1892
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 546.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "out/404.html",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/documents/process.html",
+					"settings":
+					{
+						"buffer_size": 2026,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 87.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/layouts/default.html.eco",
+					"settings":
+					{
+						"buffer_size": 2881,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2841,
+								2841
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 980.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "src/files/vendor/jquery.cycle.all.min.js",
+					"settings":
+					{
+						"buffer_size": 31197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31197,
+								31197
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "src/files/vendor/kurve-init.js",
+					"settings":
+					{
+						"buffer_size": 1140,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								282,
+								282
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "src/documents/portfolio01.html.eco",
+					"settings":
+					{
+						"buffer_size": 1229,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1174,
+								1174
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 126.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "src/documents/commissions.html",
+					"settings":
+					{
+						"buffer_size": 1654,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1174,
+								1174
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 84.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 236.0,
+	"status_bar_visible": true
+}

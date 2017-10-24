@@ -1,0 +1,31 @@
+
+	<ul class="gallery">
+		<% i = 0 %>
+		<% for page in @getCollection(@galleryTitle).toJSON(): %>
+			<% if page.isNew? and @galleryTitle is "newPieces": %>
+				<li>
+					<a href="<%= @getUrl(page) %>"><img src="<%= page.thumbSrc %>" alt="" width="" height="" />
+						<% if page.galleryTitle?: %>
+							<%- page.galleryTitle %>
+						<% else: %>
+							<%- page.itemTitle %>
+						<% end %>
+					</a>
+				</li>
+		    <% else if (page.hasVariant is false) or (page.hasVariant? and page.isShowpiece?): %>
+				<li>
+					<a href="<%= @getUrl(page) %>"><img src="<%= page.thumbSrc %>" alt="" width="" height="" />
+						<% if page.galleryTitle?: %>
+							<%- page.galleryTitle %>
+						<% else: %>
+							<%- page.itemTitle %>
+						<% end %>
+					</a>
+				</li>
+		    <% end %>
+	    <% end %>
+	</ul>
+	
+	<p class="photo-attribution">
+		All photos by Goran Basaric.
+	</p>

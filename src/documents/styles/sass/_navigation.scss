@@ -1,0 +1,96 @@
+/* NAVIGATION *********************************************************** */
+
+nav {
+  width: 100%;
+}
+
+.nav {
+  width: 100%;
+  list-style-type: none;
+  margin-bottom: 10px;
+  > li {
+    display: inline-block;
+    font-size: 14px; // SCSS new
+    height: 28px;
+    margin-bottom: 8px;
+    margin-right: 2px;
+    text-transform: capitalize;
+  }
+}
+
+// hide Portfolio sub-nav (ie tables, cabinets etc) note hierarchy: nav > .nav > li#galleries ul #galleries ul
+
+.nav--subnav {
+  display: none;
+}
+
+// "Button" look for Sm Screen nav items
+.nav {
+  > {
+    li {
+      > span {
+        background: -webkit-gradient(linear, left top, left bottom, from(#141414), to(#424242));
+        background: -moz-linear-gradient(center top, #141414, #424242);
+        border-color: #333 #333 #545454;
+        border-radius: 4px;
+        border-style: solid;
+        border-width: 1px;
+        display: inline-block;
+        font-size: 13px;
+        line-height: 15px;
+        padding: 8px 3px;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+      }
+      a {
+        &:link, &:hover, &:visited, &:active {
+          background: -webkit-gradient(linear, left top, left bottom, from(#141414), to(#424242));
+          background: -moz-linear-gradient(center top, #141414, #424242);
+          border-color: #333 #333 #545454;
+          border-radius: 4px;
+          border-style: solid;
+          border-width: 1px;
+          display: inline-block;
+          font-size: 13px;
+          line-height: 15px;
+          padding: 8px 3px;
+          text-align: center;
+          text-decoration: none;
+          vertical-align: middle;
+        }
+      }
+      > span {
+        background: none;
+        border: none;
+      }
+    }
+    #active-gallery {
+      color: #fff;
+    }
+  }
+  #activePg {
+    color: #fff;
+    a {
+      color: #fff;
+    }
+    font-size: 14px;
+    /* should be redundant ???? */
+    line-height: 16px;
+    height: 16px;
+    padding: 6px 2px;
+  }
+  > {
+    #active-gallery {
+      font-size: 14px;
+      /* should be redundant ???? */
+      line-height: 16px;
+      // height: 16px; // change to 19 (for li height of 31px) makes no difference
+      // padding: 6px 2px;
+    }
+    #activePg {
+      height: 31px; // was 28
+      padding: 0;
+    }
+  }
+}

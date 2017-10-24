@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, maximum-scale=1.0">
+
+	<title>kurve studio: <%= @document.pageTitle %></title>
+
+	<meta name="author" content="">
+	<meta name="description" content="<%= @document.metaDescription %>" />
+	<meta name="keywords" content="<%= @document.metaKeywords %>" />
+
+	<%- @getBlock("meta").toHTML() %>
+
+	<!-- http://t.co/dKP3o1e -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+
+	<!-- Icons -->
+	<!-- 16x16 <link rel="shortcut icon" href="/favicon.ico"> -->
+	<!-- 32x32 <link rel="shortcut icon" href="/favicon.png"> -->
+
+	<!--iOS -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- CSS -->
+	<!--[if gte IE 9]><!--><%- @getBlock("styles").add(["../styles/kurve-style.css"+"?d="+@site.date.toString().split(' ').splice(1,3).join('')]).toHTML() %><!--<![endif]-->
+	<!--[if lt IE 9]><%- @getBlock("styles").add(["../styles/kurve-ie876.css"+"?d="+@site.date.toString().split(' ').splice(1,3).join('')]).toHTML() %><![endif]-->
+
+	<!-- FIX!!! - NOT FINDING the shiv (defer fixed by optional parameter in call to add) -->
+	<!-- Polyfill and fallback (place after CSS) -->
+	<!--[if lt IE 9]>
+		<%- @getBlock("scripts").add(["http://html5shiv.googlecode.com/svn/trunk/html5.js"], {defer:false}).toHTML() %>
+		<script type="text/javascript">window.html5 || document.write('<script type="text/javascript" src="../vendor/html5shiv/dist/html5shiv.js"><\/script>')</script>
+	<![endif]-->
+	
+	<!-- Windows 8 / RT -->
+	<!--<meta name="msapplication-TileImage" content="img/apple-touch-icon-144x144-precomposed.png">-->
+	<meta name="msapplication-TileColor" content="#000">
+	<meta http-equiv="cleartype" content="on">
+
+</head>
+
+<body>
+	<div id="wrap">
+		
+		<%-@partial('header.html.eco', @)%>
+
+		<div id="body">
+			<nav>			
+				<ul class="nav">
+					<% for page in @getCollection("pages").toJSON(): %>
+				        <% if page.shortTitle is "Portfolio": %>
+				        	<li id="galleries">
+								<a href="<%= page.url %>"><%= page.shortTitle %></a>
+								<ul>
+									<% for page in @getCollection("portfolio").toJSON(): %>
+										<% if page.shortTitle is @document.category: %>
+								        	<li id="activePg"><a href="<%= page.url %>"><%= page.shortTitle %></a></li>
+								        <% else: %>
+								        	<li><a href="<%= page.url %>"><%= page.shortTitle %></a></li>
+								        <% end %>
+								    <% end %>
+								</ul>
+							</li>
+				        <% else: %>
+				        	<li><a href="<%= page.url %>"><%= page.shortTitle %></a></li>
+				        <% end %>
+				    <% end %>
+				</ul>
+			</nav>
+						
+				
+		<% if @document.hasVariant is true: %>
+			<div id="content" class="item variant">
+				<h2 class="item-has-variants"><%- @document.baseItemTitle %></h2>
+				<ul>
+					<% for page in @getCollection("tables").toJSON(): %>
+				        <% if page.id is @document.id: %>				        	
+				        	<% if page.lastItem is true: %>
+					        	<li class="end current"><%- @document.itemTitle %></li>
+					        <% else: %>
+					        	<li class="current"><%- @document.itemTitle %></li>
+					        <% end %>				        	
+				        <% end %>
+				        <% if (page.relatedItemTitle is @document.relatedItemTitle) and (page.id isnt @document.id): %>
+				        	<% if page.lastItem is true: %>
+					        	<li class="end"><a href="<%= page.url %>"><%- page.itemTitle %></a></li>
+					        <% else: %>
+					        	<li><a href="<%= page.url %>"><%- page.itemTitle %></a></li>
+					        <% end %>
+				        <% end %>
+				    <% end %>					
+				</ul>
+		<% else: %>
+        	<div id="content" class="item">
+        <% end %>
+				
+				<h2><%- @document.itemTitle %></h2>
+				<p>
+					<%- @document.itemDescription %>
+				</p>
+
+				<div id="details">
+					<h3><%- @document.dimensions %></h3>
+					<p>
+						<%- @document.madeWith1 %>
+					</p>
+					<p>	
+					    <%- @document.madeWith2 %>
+					</p>
+				</div>
+
+				<%- @content %>	
+			</div>
+
+		</div>
+
+	</div>
+
+	<%-@partial('footer.html.eco', @)%>
+
+	<!-- not really needed -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="../vendor/jquery-1.7.2.min.js"><\/script>')</script>
+
+</body>
+</html>

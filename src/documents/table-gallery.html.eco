@@ -1,0 +1,16 @@
+---
+title: "table gallery"
+shortTitle: "Tables"
+layout: "portfolio"
+pageType: portfolio
+order: 2
+# thumbSrc: "images/gallery-landing-table.jpg"
+thumbSrc: "images/tables/glassTopCoffeeeWalnut01.jpg"
+---
+
+<main id="content" role="main">			
+	<h2>Tables</h2>
+
+	<%-@partial('item-gallery.html.eco', @, {galleryTitle:'tables'})%>
+	
+</main>

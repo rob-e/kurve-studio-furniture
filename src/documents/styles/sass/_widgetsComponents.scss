@@ -1,0 +1,109 @@
+// Widgets (basically, smaller structures) and Components
+
+/**** Widgetville ****/
+
+/* Highlight Pane */
+// Note: used in Contact & Commission pages
+.highlight-pane {
+  background: #242424;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
+  > h3 {
+    font-size: 1.4rem;
+    margin-bottom: .75em;
+  }
+}
+
+
+/**** Componentburg ****/
+
+/* Pseudo Masonry */
+.masonry {
+  clear: left;
+  list-style-type: none; // TO-DO: confirm need for this
+  margin: 25px 0 15px 0;
+  position: relative; /* because preceding slider uses positioning */
+  > li {
+    margin-bottom: 1.25em;
+    text-align: center;
+    > {
+      figure > img, img {
+        display: inline-block;
+      }
+    }
+    &.end {
+      margin-right: 0;
+    }
+  }
+}
+
+
+/* Captions (thanks to: https://css-tricks.com/slide-in-image-captions/ */
+// Interaction note: "?" placed as hover-bait (not good for touch screens, tho)
+.captioned {
+  overflow: hidden;
+  position: relative;
+  &:before {
+    content: "?";
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    text-align: center;
+    /* centres the "?" icon */
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    /* Support for transitions on psuedo elements still sketchy? */
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    opacity: 0.75;
+  }
+  &:hover:before {
+    opacity: 0;
+  }
+}
+	.captioned--ul:before {
+	  // position the hover-bait (i.e. ul = upper left)
+	  top: 10px;
+	  left: 10px;
+	}
+	.captioned--bl:before {
+	  bottom: 10px;
+	  left: 10px;
+	}
+// Consolidate into previous .captioned ????
+.captioned {
+  > figcaption {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    max-width: 80%;
+    opacity: 0;
+    position: absolute;
+    text-align: left;
+    transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+  }
+  &:hover > figcaption {
+    left: 0;
+    opacity: 0.75;
+  }
+}
+	.captioned--ul > figcaption {
+	  top: 5px;
+	  left: -30%;
+	}
+	.captioned--bl > figcaption {
+	  bottom: 5px;
+	  left: -30%;
+	}
+	.captioned--ul:hover > figcaption, 
+	.captioned--bl:hover > figcaption {
+	  left: 0;
+	}

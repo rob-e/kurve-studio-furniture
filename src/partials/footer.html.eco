@@ -1,0 +1,31 @@
+
+<footer role="contentinfo">
+	<div>
+		<table class="houzz-ftr" cellpadding="0" cellspacing="0"><tr><td><a href="http://www.houzz.com/pro/kurveca/enrico-koenig" title="See Enrico's profile, reviews of his work, and more, on Houzz" target="_blank"><img src="http://st.houzz.com/static/badge36_36.png" alt="Remodeling and Home Design" width="36" height="36" border="0" /></a></td></tr></table>		
+		<small>Portfolio Contents</small>
+		<nav>
+			<ul class="nav">
+				<% for page in @getCollection("portfolio").toJSON(): %>			        
+			        <li><a href="<%= @getUrl(page) %>"><%= page.shortTitle %></a></li>
+			    <% end %>
+			</ul>
+		</nav>
+		<ul class="site-info">
+			<li><small>Furniture photos by Goran Basaric</small></li>
+			<li><small><span>Studio furniture</span> by Enrico K&#246;nig</small></li>
+		</ul>
+	</div>
+</footer>
+
+<!-- google analytics -->
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-21369601-1']);
+	_gaq.push(['_trackPageview']);
+	
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();	
+</script>

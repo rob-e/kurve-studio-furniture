@@ -1,0 +1,148 @@
+/*
+---
+---
+*/
+/* LAYOUT ***************************************************************** */
+/* Top level content containers */
+#wrap {
+  background: #000;
+  margin: 0 auto;
+  overflow: auto;
+  /* contains floated children (form of clear-fix) */
+  text-align: left;
+}
+
+#body {
+  overflow: auto;
+  /* contains floated children (form of clear-fix) */
+  padding: 4px 10px 130px 10px;
+}
+
+/* Main content */
+#content {}
+
+/* Sticky Footer */
+html, body {
+  height: 100%;
+}
+#wrap {
+  position: relative;
+  min-height: 100%;
+}
+* html #wrap {
+  height: 100%;
+}
+#body {
+  padding-bottom: 130px;
+}
+footer {
+  position: relative;
+  margin-top: -110px !important;
+}
+header {
+  position: relative;
+  > div {
+    margin: 10px 0;
+    padding: 15px 10px;
+  }
+}
+
+/* HEADER/FOOTER ********************************************************** */
+footer > div {
+  margin: 10px 0;
+  padding: 15px 10px;
+}
+
+header {
+  background: url('../images/bg.jpg');
+  overflow: hidden;
+  /* clearfix ???? */
+  > div {
+    background: #000;
+    height: 60px;
+    margin-bottom: 20px;
+    > h1 {
+      float: left;
+      width: 107px;
+      > a {
+        display: block;
+        float: left;
+        width: 107px;
+      }
+    }
+  }
+}
+
+.kurve-address {
+  color: #744a04;
+  float: right;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 12px;
+  text-align: right;
+  text-transform: capitalize;
+  width: 58%;
+  &:hover {
+    color: $baseHeadColour;
+  }
+  > {
+    b {
+      display: block;
+      /* IE line-wrap weirdness */
+    }
+    a, span {
+      display: block;
+      text-transform: lowercase;
+    }
+    a {
+      &:link {
+        color: $baseFontColour;
+        /* dimmed default */
+      }
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}
+
+footer {
+  margin: 0 auto;
+  overflow: hidden;
+  /* form of clearfix */
+  position: relative;
+  > div {
+    background: #000;
+    height: 60px;
+    margin-top: 20px;
+  }
+}
+
+// More of a widget/component
+.site-info {
+  color: #573f18;
+  display: none;
+  list-style-type: none;
+  text-align: right;
+  width: 100%;
+  > li {
+    color: #573f18;
+    display: none;
+    list-style-type: none;
+    text-align: right;
+    width: 100%;
+  }
+  bottom: 15px;
+  position: absolute;
+  right: 20px;
+  width: 40%;
+  &:hover > li {
+    color: $baseHeadColour;
+  }
+  small {
+    display: block;
+  }
+  span {
+    color: #888;
+  }
+}

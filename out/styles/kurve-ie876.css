@@ -1,0 +1,609 @@
+/*
+---
+---
+*/
+
+/* =================================================================
+Frankensteined from:
+	320 and Up by Andy Clarke
+	Version: 3.0
+	URL: http://stuffandnonsense.co.uk/projects/320andup/
+	Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+==================================================================== */
+/* Reset ----------------------------------------------------------- */
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img,
+ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd,
+ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, figure, footer, header,
+hgroup, menu, nav, section, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+article, aside, figure, footer, header, hgroup, nav, section {
+	display: block;
+}
+
+
+/* Future typography reference:
+   - font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+*/
+
+/* Global/Elemental rules ------------------------------------------ */
+h2,
+h3 { 
+	color: #f8971c;
+	font-size: 16px;
+	font-size: 1.6rem;
+	line-height: 1.125em;
+	text-rendering: optimizelegibility;
+}
+h2 { 
+	/* margin-top: 5px; horizontal align with nav */
+}
+img {
+  max-width: 100%;
+  border-width: 0;
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic;
+}
+a:link,
+a:visited { 
+	color: #f8971c; 
+	text-decoration: underline; 
+}
+a:hover, 
+a:active { 
+	color: #fff; 
+}
+p { 
+	margin-bottom: 14px;
+}
+html {
+	font-size: 62.5%;
+	-webkit-overflow-scrolling: touch;
+	-webkit-tap-highlight-color: #f3f5f6;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	background: transparent url('../images/bg.jpg'); 
+	color: #b2730b; 
+	font-family: Arial, Helvetica, sans-serif; /* too 1970s??? */
+	font-size: 12px;
+	font-size: 1.2rem;    
+	line-height: 1.17em;	
+}
+
+/* "Default" list style 
+   Base rules, customize via: #content or associated page level class */
+ul.default{ 
+	list-style-type: square;
+	padding: 0 0 0 15px;
+}
+ul.default li{ 
+	font-family: inherit;
+	margin-bottom: 10px;
+}
+
+/* LAYOUT ----------------------------------------------------------- */
+/* Top level content containers */
+#wrap { 
+	background: #000;
+	margin: 0 auto;
+	overflow: auto;  /* contains floated children (form of clear-fix) */
+	text-align: left;
+	width: 770px;
+}
+#body { 
+	overflow: auto; /* contains floated children (form of clear-fix) */
+	padding: 15px 20px;
+}
+	/* Main content 
+	   ID provides base rules 
+	   Customize with class (i.e. .home, .columned) */
+	#content,
+	#gallery,
+	#process{		
+		float: right;	/* keep content away from sticky nav */
+		width: 535px;	
+	}
+
+/* Sticky Footer */
+html,
+body {
+	height: 100%;
+}
+#wrap {
+	position: relative;
+	min-height: 100% ;
+}
+* html #wrap {
+	height: 100%;
+}
+#body {
+	padding-bottom: 130px; /* Extra 20px for "detached" footer bg */
+}
+footer {
+	position: relative;
+	margin-top: -110px !important;
+}
+header {	
+	position: relative;	
+}
+
+
+/* HEADER ------------------------------------------------------------ */
+header{ 
+	background: url('../images/bg.jpg');
+	overflow: hidden; /* clearfix */
+}
+	header div {
+		background: #000;
+		height: 60px;
+		margin-bottom: 20px;		
+	    padding: 15px 20px;
+	}	
+	header h1{ 
+		float: left;
+		width: 42%; 
+	}
+	header h1 a{ 
+		display: block; 
+		float: left; 
+		width: 42%;  
+	}
+	header address{	 
+		color: #744a04;
+		float: right;
+		font-style: normal;
+		font-size: 11px;
+		line-height: 12px;
+		text-align: right; 
+		text-transform: capitalize;
+		width: 30%;	
+	}
+	header address b{ 
+		display:block; /* IE line-wrap weirdness */
+	}
+	header address a,
+	header address span{ 
+		display: block; 
+		text-transform: lowercase; 
+	}
+	header address a:link{ 
+		color: #b2730b; /* dimmed default */ 
+	}
+	header address a:hover{ 
+		color: #fff; 
+	}
+
+/* FOOTER ----------------------------------------------------------- */	
+footer {
+	background: url('../images/bg.jpg');	
+	margin: 0 auto;
+	overflow: hidden; /* form of clearfix */
+	position: relative;
+	width: 770px;
+} 
+	footer div {
+		background: #000;
+		height: 60px;
+		margin-top: 20px;		
+	    padding: 15px 20px;
+	}
+	footer ul {
+		list-style-type: none;
+	}
+	#site-info,
+	#site-info li {
+		color: #573f18;
+		text-align: right;
+		width: 100%;
+	}
+	#site-info {
+		bottom: 15px;
+		position: absolute;
+		right: 20px;
+		width: 40%;
+	}
+	#site-info small {
+		display: block;
+		font-size: 11px;
+		line-height: 12px;
+	}
+	#site-info span {
+		color: #888;
+	}
+	
+	
+/* NAVIGATION ------------------------------------------------------- */	
+nav {
+	float: left;
+	width: 170px;
+}
+	nav ul {
+		float: left;
+		list-style-type: none;
+		width: 170px;
+	}
+	nav li { 
+		height: 28px;
+		text-transform: capitalize;
+	}
+	nav li span,
+	nav li a:link,
+	nav li a:visited,
+	nav li a:active {
+		display: block;		
+		font-size: 14px; /* larger than default */
+		line-height: 16px;
+		padding: 6px 2px;
+		text-decoration: none; 		
+	}
+	nav li a:hover { 
+		background: #141414;
+		text-decoration: none; 
+	}
+	/* Active/Current nav position (esp ie7/8?) */
+	nav #active-gallery,
+	nav #activePg, 
+	nav #activePg a { 
+		color: #fff; 
+	}	
+	/* Make empty LI behave same as when containing an Anchor */
+	nav #activePg,
+	nav #active-gallery{ 
+		font-size: 14px; /* should be redundant */
+		line-height: 16px;
+		height: 16px;
+		padding: 6px 2px;
+	}
+	/* Stop previous behaviour for inner nav */
+	nav ul #activePg { 
+		height: 28px;
+		padding: 0;
+	}	
+	/* Sub-nav (nested list) */
+	nav #galleries{ 
+		height: 150px; 
+	}
+		#galleries ul { 
+			list-style-type: disc;
+			margin-left: 35px;
+			width: 135px;
+		}
+	nav ul li{ 
+		vertical-align: middle; /* ie7 */ 
+	}
+
+	/* Footer links */
+	footer small,
+	footer nav { 
+		display: none;
+	}
+	
+
+/* PAGE SPECIFIC MAIN CONTENT COMPONENTs ----------------------------- */
+/* HOME page */
+.home h2{ 
+	font-size: 17px; 
+	margin: 38px 0 52px 0; 
+}
+.home p { 
+	font-size:15px; 
+}
+
+/* GALLERY pages (Multiple/Single Category galleries)
+   - #gallery provides base rules
+   - Customize via .category and/or .categories  */
+#gallery ul { 
+	float: left;
+	margin: 20px 0 0 0; 
+	list-style-type: none; 
+	text-align: center;
+}
+	#gallery ul li { 
+		background: #141414;
+		float: left;
+		height: 145px;
+		margin-bottom: 5px;
+	}	
+	#gallery ul li.first { 
+		margin-left: 0; 
+	}		
+	#gallery ul li a, 
+	#gallery ul li a:visited { 
+		border-top: solid 3px #010101;
+		float: left;
+		text-decoration: none; 		
+		outline: none;		
+		height: 138px; /* de-common-ify??? */
+		margin: 0 0 2px 0;
+	}
+	#gallery ul li a:hover {
+		background: #000;
+		border-top: solid 3px #fefefe;
+		border-bottom: solid 3px #fefefe;
+		color: #fff;  /* not redundant */
+	}
+	#gallery ul li a img { 
+		border: none;
+		display: block;
+		float: left;
+		margin-bottom: 2px;
+	}
+	/* Multiple Categories Gallery */
+	.categories ul li { 
+		height: auto;
+		margin: 0 0 0 8px;
+		width: auto;
+	}
+		.categories ul li a, 
+		.categories ul li a:visited { 
+			height: auto;
+			width: 127px;
+		}		
+		.categories ul li h3 { 
+			float:left;
+		}		
+		.categories ul li h3 a {	
+			border-bottom: solid 3px #f8971c;
+			display: block;
+			width: auto;
+		}	
+		.categories ul li h3 a span { 
+			clear: left; 
+			display: block; 
+			float: left; 		
+			font-size: 16px;
+			padding: 5px; 
+		}		
+	/* Single Category Gallery */
+	.category ul li {
+		margin-left: 8px;
+		width: 100px;
+	}
+		.category ul li a, 
+		.category ul li a:visited { 
+			color: #141414;
+			width: 100px;  /* NOTE: img width attr is 127??? */
+		}
+
+/* ITEM PAGE (unique furniture piece) */
+.item { margin:5px 0; }	
+	.item img {
+		display: block;
+		margin-bottom: 24px;
+	}	
+	/* Story/description element (semantic naming?) */
+	.item h2 + p {
+		float: left;
+		margin: 12px 0 15px 0; /* Same as #details (consistent space above/below) */
+		min-height: 54px;
+		text-align: justify;
+		width: 50%; 
+	}	
+	/* Details (dimensions, materials, finish(es)) element */
+	#details {  
+		clear: none; /* override??? */
+		float: right;		
+		margin: 12px 0 15px 0; 
+		width: 46%; 
+	}
+	#details h3 { 
+		color: #744a04;
+		font-size: 12px; /* Keeps "rhythm" with description text */
+		line-height: 14px;
+		margin-bottom: 14px;	
+	}
+	#details p { 
+		color: #744a04; 
+		float: none;
+		font-size: 11px; 
+		min-height: 1px; /* stop unwanted cascade */
+		margin: 0;
+		width: 90%;
+	}
+	
+	/* Quick fix for items with extras in details dimensions headings
+	   and/or materials paragraphs (appears inside H3 and P tags) */
+	#details span { 
+		display: block; 
+		font-variant: small-caps; 
+	}
+	/* Special (temporary?) case  */
+	.no-description h2 + p { 
+		display:none; 
+	}	
+	.no-description #details { 
+		float: left; 
+	}
+	
+	/* Go to parent gallery or top of page section */
+	.item img + div { 
+		float: left; 
+		clear:both; 
+	}
+	.item img + div a:link,
+	.item img + div a:visited { 
+		float: left;
+		font-size: 14px;
+		display: inline-block;
+		margin-left: -80px;
+		padding: 15px 15px 15px 0;
+		text-decoration: underline;
+	}	
+	.item a.page-top:link,
+	.item a.page-top:visited { 
+		margin-left: 0; 
+	}
+	.page-top span { 
+		display: inline-block; 
+		font-weight: bold; 
+	}
+
+		
+/* ITEM-VARIANT page - contextual menu for other variants */
+h2#base-item-type { 
+	border-bottom: dotted 1px #b2730b; 
+	font-size: 22px;
+	padding-bottom: 2px; 
+}
+.variant ul { 
+	list-style-type: none; 
+	margin: 2px 0 40px 0; 
+	padding: 0; 
+}
+	.variant ul li { 
+		border-right: solid 1px #b2730b;
+		float: left;	
+		font-size: 11px; 
+		line-height: 11px; 
+		margin-right: 0.5em;	
+		padding-right: 0.5em;
+	}
+	.variant ul li.end { 
+		border-right: none;
+		padding-right: 0;
+		margin-right: 0; 
+	}
+	.variant ul li a:link,
+	.variant ul li a:visited,
+	.variant ul li a:active { 
+		color: #b2730b;	/* bit darker than default */
+		font-size: 11px; 
+		line-height: 11px;
+		margin: 0;
+		padding: 0;
+	}
+	.variant ul li a:hover{ 
+		color: #fff;	/* not redundant (links use diff color than base) */	
+	}
+	.variant ul li.current{ 
+		color: #fcfdfc; /* bit darker than usual */
+	}	
+	
+/* COLUMNED pages ( currently: bio, commissions) */
+.columned h2 + div {  
+	float: left;
+	margin-top: 15px; 
+	width: 258px; 
+}
+.columned div + div { 
+	float: right; 
+	margin-top: 15px;
+	width: 258px; 
+}
+.columned div img { 
+	margin-bottom: 15px; 
+}	
+
+/* PROCESS page */
+#slideShow { 
+	margin: 14px 0; 
+}
+#process ul { 
+	float: left;
+	margin: 25px 0 15px 0; 
+}
+	#process ul li { 
+		float: left; 
+		list-style-type: none; 
+		margin-bottom: 5px; 
+		margin-right: 41px; 
+		width: 150px; 
+	}
+	#process ul li img { 		
+		display: block;
+		margin-bottom: 19px;
+	}
+	#process ul li.end { 
+		margin-right: 0; 
+	}
+#process p { 
+	clear: both; 
+}
+.slideshow { 
+	margin-top: 15px;
+}	
+	
+
+/* FIND page */
+.find ul + div p{ width:380px; }		
+.find ul.default{ margin-top:15px; }
+.find ul.default a{ font-weight:bold; }
+
+
+/* SHOWS page */
+.shows h2 + h3{ margin-top:10px; } /* align with 2nd nav item */
+.shows h3{ margin:10px 0; }
+.shows ul.default li{ 
+	margin-left:1px; 
+	vertical-align: text-bottom;
+}
+
+
+/* Experimental SHOWS page 
+   - list item filtering functionality */
+     
+.experiment h3{ 
+	border-bottom:dotted 1px #b2730b;
+	padding-bottom:2px; 
+}
+    
+.experiment #shows{ clear:left; }
+	
+.experiment h4{
+	float:left;
+	font-size:11px; 
+	line-height:11px;
+	margin:-8px 0 0 0;
+	padding:0;
+	width:10%;
+}
+
+#shows-filter{
+	float:left;
+	list-style-type:none;
+	margin:-8px 0 10px 0;
+	padding:0;
+	width:88%;
+}
+	#shows-filter li{
+		float:left;
+		font-size:11px; /* IE7 doesn't listen if li has these rules */
+		line-height:11px;
+		margin:0 10px 10px 0;
+	}
+	
+	#shows-filter .active-filter{ color:#fff; }
+	/* linky buttons, thanks to:
+	   http://www.456bereastreet.com/archive/201110/styling_button_elements_to_look_like_links/ */		
+	#shows-filter button{
+	    background: transparent;
+	    border: 0;
+	    color: #f8971c;
+	    cursor: pointer; /* Buttons donâ€™t make the cursor change in all browsers */
+		overflow: visible; /* Shrinkwrap the text in IE7- */
+	    font-size: 11px; /* IE7 doesn't listen if li has these rules */
+		line-height: 11px;
+	    margin: 0;
+	    padding: 0;	    
+	    text-decoration:underline;	    
+	    /* -moz-user-select:text; Make button text selectable in Gecko */
+	}
+	#shows-filter button:hover,
+	#shows-filter button:focus {
+	    color: #fff;
+	}
+	/* Remove mystery padding in Gecko browsers */
+	#shows-filter button::-moz-focus-inner {
+	    padding: 0;
+	    border: 0;
+	}

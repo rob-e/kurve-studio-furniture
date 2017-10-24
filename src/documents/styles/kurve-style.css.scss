@@ -1,0 +1,293 @@
+/*
+---
+---
+*/
+
+@import "baseResetGlobalUtility";
+@import "layoutBodyHeaderFooter";
+@import "navigation";
+@import "pages";
+@import "sliderCarousel";
+@import "widgetsComponents";
+
+
+// What to do? Scatter query rules into the relevant partials (so as to make stand alone components) ????
+// Just keep it simple and follow previous "plan" of manageable chunks ????
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+   .item {
+    h2 + p {
+      float: left;
+      /* Same as #details (consistent space above/below) */
+      min-height: 54px;
+      width: 50%;
+    }
+  }
+  #details {
+    clear: none;
+    /* override??? */
+    float: right;
+    width: 46%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 75%;
+  }
+  body {
+    font-size: 12px;
+    font-size: 1.0rem;
+    line-height: 1.17em;
+  }
+  /* provides bit of bg-img around Md View */
+  #wrap, footer {
+    margin: 0 4px;
+    width: auto;
+  }
+  #body {
+    padding: 15px 20px 130px 20px;
+  }
+  /* Main content: ID for base rules, customize with class (i.e. .home, .columned) */
+  #content {
+    float: right;
+    /* keep content away from sticky nav */
+    width: 516px;
+    /* was 535 */
+  }
+  header div, footer div {
+    padding: 15px 20px;
+  }
+  header h1 {
+    width: 42%;
+    a {
+      width: 42%;
+    }
+  }
+  .kurve-address {
+    width: 40%;
+  }
+  #content > h2:first-child {
+    margin-top: 0;
+  }
+  /* NAVIGATION */
+  nav {
+    position: fixed;
+    z-index: 10;
+    float: left;
+    width: 170px;
+  }
+  .nav {
+    float: left;
+    width: 170px;
+    > li {
+      display: block;
+      height: auto; // remove and nav goes haywire
+      span {
+        background: none;
+        border: none;
+        border-radius: 0;
+        display: block;
+        font-size: 14px;
+        text-align: left;
+        box-shadow: inset 0 0 0 0 #242424;
+        -webkit-transition: all ease 1s;
+        -moz-transition: all ease 1s;
+        transition: all ease 1s;
+      }
+      a {
+        &:link, &:visited, &:active {
+          background: none;
+          border: none;
+          border-radius: 0;
+          display: block;
+          font-size: 14px;
+          text-align: left;
+          box-shadow: inset 0 0 0 0 #242424;
+          -webkit-transition: all ease 1s;
+          -moz-transition: all ease 1s;
+          transition: all ease 1s;
+        }
+        &:hover {
+          background: #141414;
+          text-decoration: none;
+          box-shadow: inset 500px 0 0 0 #242424;
+        }
+      }
+    }
+  }
+  /* Undo button look for Nav items */
+  /* BEM fail? */
+  .nav--subnav {
+    display: block;
+    float: none;
+    list-style-type: none;
+    margin: 0 0 0 28px;
+    /* L was 35 (before bullet removal) */
+    width: 135px;
+    > li {
+      &:first-child {
+        margin-top: 8px;
+      }
+      margin-bottom: 8px;
+    }
+  }
+  /* More like "active sub-nav item" */
+  /* TO-DO: revisit this, puzzled about need to redecle */
+  #active-gallery {
+    color: #fefefe;
+    font-size: 14px;
+  }
+  /* Gallery mods */
+  .gallery {
+    text-align: center;
+    /* centres LIs when row not full */
+    > li {
+      display: inline-block;
+      margin-bottom: 1em;
+      width: 49%;
+      &:nth-child(even) {
+        margin-left: 0.5em;
+      }
+    }
+  }
+  .photo-attribution {
+    display: none;
+  }
+  /* Footer */
+  footer {
+    small, nav {
+      display: none;
+    }
+  }
+  .site-info {
+    bottom: 25px;
+    /* change again for Lg */
+    display: block;
+    > li {
+      display: block;
+    }
+    small {
+      font-size: 11px;
+      line-height: 12px;
+    }
+  }
+  .houzz-ftr {
+    margin-top: -8px;
+  }
+  /* COLUMNED pages */
+  .columned {
+    h2 + div {
+      float: left;
+      width: 47.5%;
+      /* was 258px */
+    }
+    div + div {
+      float: right;
+      width: 47.5%;
+      /* was 258px */
+    }
+  }
+  .experiment h4 {
+    width: 10%;
+  }
+  #shows-filter {
+    width: 88%;
+  }
+  /* Pseudo masonry effect (falls back to single col of centred imgs; i.e. small screen layout) */
+  .masonry {
+    -moz-column-count: 2;
+    -moz-column-gap: 1em;
+    column-count: 2;
+    column-gap: 1em;
+    > li {
+      /* Masonry bricks or child elements */
+      display: inline-block;
+      margin: 0 0 1em;
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  /* Top level content containers */
+  #wrap, footer {
+    margin: 0 auto;
+    width: 960px;
+    /* was 770 */
+  }
+  #body {}
+  #content {
+    width: 695px;
+    /* was 535 */
+  }
+  header div {
+    margin-top: 0;
+  }
+  footer div {
+    margin-bottom: 0;
+  }
+  .site-info {
+    bottom: 12px;
+  }
+  .gallery > li {
+    width: 32%;
+    &:nth-child(2n) {
+      margin-left: 0;
+    }
+    &:nth-child(3n+2) {
+      margin-left: 0.76em;
+      margin-right: 0.76em;
+    }
+    a {
+      padding-bottom: 0.5em;
+      > img {
+        margin-bottom: 0.5em;
+        /* go to em or rem???? */
+      }
+    }
+  }
+  /* Undo Md Scr Gallery mod */
+  /* bit more breathing room for text */
+  /* Keep grid for portfolio pg */
+  .gallery--highlight > li {
+    width: 48.75%;
+    &:nth-child(3n+2) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    &:nth-child(2n) {
+      margin-left: 1em;
+    }
+  }
+  .slideshow {
+    height: 521px;
+    > figure > {
+      img {
+        min-height: 521px;
+      }
+      figcaption {
+        height: auto;
+        max-width: 48%;
+        position: absolute;
+      }
+    }
+  }
+  .kurve-directionNav {
+    display: block;
+    > input {
+      top: 45%;
+    }
+  }
+}
+
+/* Previously: 980px (main content wrap takes all horizontal space) */
+@media only screen and (min-width: 1024px) {
+  #wrap, footer {
+    width: 1000px;
+    /* bump up the width */
+  }
+}

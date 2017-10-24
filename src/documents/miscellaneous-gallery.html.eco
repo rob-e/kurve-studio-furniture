@@ -1,0 +1,16 @@
+---
+title: "miscellaneous gallery"
+shortTitle: "Miscellaneous"
+layout: "portfolio"
+pageType: portfolio
+order: 5
+# thumbSrc: "images/gallery-landing-miscellaneous.jpg"
+thumbSrc: "images/gallery-landing-misc.jpg"
+---
+			
+<main id="content" role="main">
+	<h2>Miscellaneous</h2>
+
+	<%-@partial('item-gallery.html.eco', @, {galleryTitle:'miscellaneous'})%>
+	
+</main>

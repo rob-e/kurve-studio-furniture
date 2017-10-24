@@ -1,0 +1,6 @@
+# Ignore the many many Node folders and files
+node_modules/
+
+# Also ignore files from scrapyard or support
+_scrapyard/
+_support-files

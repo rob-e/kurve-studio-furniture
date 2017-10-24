@@ -1,0 +1,14 @@
+
+
+<header role="banner">
+	<div>
+		<h1><a href="<%= if @document.altLogoSrc then '../index.html' else 'index.html' %>"><img src="<%= if @document.altLogoSrc then '../images/logo.gif' else 'images/logo.gif' %>" alt="Kurve, studio furniture" width="107" /></a></h1>
+		<address class="kurve-address">
+			<b>enrico k&#246;nig</b>	
+			suite 250, 975 vernon drive <br />
+			vancouver, BC, V6A 3P2
+			<span>cell 604.805.7205</span>
+			<a href="mailto:enricokonig@gmail.com">enricokonig@gmail.com</a>
+		</address>
+	</div>	   
+</header>

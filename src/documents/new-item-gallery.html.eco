@@ -1,0 +1,15 @@
+---
+title: "new item gallery"
+shortTitle: "New"
+layout: "portfolio"
+pageType: portfolio
+order: 1
+# thumbSrc: "images/gallery-landing-table.jpg"
+thumbSrc: "images/tables/hall-table-elliptic-upright-2.jpg"
+---
+
+<main id="content" role="main">			
+	<h2>New</h2>
+
+	<%-@partial('item-gallery.html.eco', @, {galleryTitle:'newPieces'})%>
+</main>

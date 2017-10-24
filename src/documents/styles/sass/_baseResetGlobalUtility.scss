@@ -1,0 +1,144 @@
+/*
+---
+---
+*/
+// Sass/Compass Variables
+$baseFontColour : #b2730b;
+$baseHeadColour : #f8971c;
+
+// Reset, Global (AKA Elemental) and Utility styles
+/* Reset ****************************************************************** */
+/* Note: last remnant from Andy Clarke's 320 and Up (v. 3.0)                */
+
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+  }
+}
+
+span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, 
+cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, 
+b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, 
+tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, 
+hgroup, menu, nav, section, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+// "Block up" HTML5 elements for older (more like ancient) browsers
+article, aside, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+/* Global/Elemental rules ************************************************* */
+html {
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: #aaa;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  background: transparent url('../images/bg.jpg');
+  color: $baseFontColour;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.0rem;
+  line-height: 1.3em;
+}
+
+h2 {
+  color: $baseHeadColour;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.125em;
+  text-rendering: optimizelegibility;
+}
+
+h3 {
+  color: $baseHeadColour;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.125em;
+  text-rendering: optimizelegibility;
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+img {
+  max-width: 100%;
+  border-width: 0;
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic;
+}
+
+a {
+  &:link, &:visited {
+    color: $baseHeadColour;
+    text-decoration: underline;
+  }
+  &:hover, &:active {
+    color: #fff;
+  }
+}
+
+p {
+  margin-bottom: 14px;
+}
+
+address {
+  margin-bottom: 14px;
+  font-style: normal;
+}
+
+
+/* Simple Utility classes ************************************************* */
+.clear-lr {
+  clear: both;
+}
+
+.top-spacer {
+  margin-top: 1.25em;
+}
+
+.bottom-spacer {
+  /* note: no longer used, deprecate? */
+  margin-bottom: 1em;
+}
+
+/* "Default" list style */
+ul.default {
+  list-style-type: square;
+  padding: 0 0 0 15px;
+  li {
+    font-family: inherit;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,390 @@
+/* ********************************************************************** */
+/* Generic Pg Elements *********************************************** */
+/* Page title head */
+
+#content > h2:first-child {
+  margin: 20px 0;
+}
+
+/* Widget-like elements ********************************************* */
+/* Houzz badges */
+
+.houzz-badges > a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.houzz-home {
+  /* Note: appears in home page main content area */
+  float: right;
+  margin: 10em 0 3em 0;
+  text-align: right;
+}
+
+.houzz-ftr {
+  float: right;
+  margin-top: -20px;
+  width: 36px;
+}
+
+/* PAGE SPECIFIC MAIN CONTENT COMPONENTs **************************** */
+/* HOME page */
+
+.home-title {
+  font-size: 17px;
+  margin: 38px 0 52px 0;
+}
+
+.tagline {
+  font-size: 15px;
+}
+
+/* .hero-box .hero-img .hero-img:hover */
+
+/* Gallery pages (multiple types & single type) ********************* */
+/* Note: quasi BEM, but H3 depends on global rules */
+
+.gallery {
+  list-style-type: none;
+  > li {
+    background: #141414;
+    margin-bottom: 31.5px;
+    text-align: center;
+    a {
+      display: block;
+      border-bottom: solid 3px #010101;
+      border-top: solid 3px #010101;
+      text-decoration: none;
+      outline: none;
+      padding-bottom: 0.25em;
+      &:visited {
+        display: block;
+        border-bottom: solid 3px #010101;
+        border-top: solid 3px #010101;
+        text-decoration: none;
+        outline: none;
+        padding-bottom: 0.25em;
+      }
+    }
+  }
+}
+
+/* custom appearance for portfolio pg */
+
+.gallery--highlight > li a {
+  border-bottom: solid 3px $baseHeadColour;
+  &:visited {
+    border-bottom: solid 3px $baseHeadColour;
+  }
+}
+
+.gallery > li a {
+  &:hover {
+    background: #000;
+    border-bottom: solid 3px #fefefe;
+    border-top: solid 3px #fefefe;
+    color: #fff;
+    /* not redundant */
+  }
+  > img {
+    border: none;
+    display: block;
+    margin: 0 auto 4px auto;
+    /* go to em or rem???? */
+  }
+}
+
+.photo-attribution {
+  clear: left;
+  padding-top: 0.25em;
+  /* no marg cuz follows floated items (note: floats gone) */
+  text-align: right;
+}
+
+/* ITEM PAGE (unique furniture piece) */
+
+.item {
+  margin: 5px 0;
+  img {
+    display: block;
+    margin-bottom: 24px;
+  }
+  h2 + p {
+    /* float: left; */
+    margin: 12px 0 15px 0;
+    /* Same as #details (consistent space above/below) */
+    /* min-height: 54px; */
+    text-align: justify;
+    /* width: 50%; */
+  }
+}
+
+/* Story/description element (semantic naming?) */
+
+/* Details (dimensions, materials, finish(es)) element */
+
+#details {
+  /* clear: none; */
+  /* override??? */
+  /* float: right; */
+  margin: 12px 0 15px 0;
+  /*width: 46%;*/
+  h3 {
+    color: #744a04;
+    font-size: 12px;
+    /* Keeps "rhythm" with description text */
+    line-height: 14px;
+    margin-bottom: 14px;
+  }
+  p {
+    color: #744a04;
+    float: none;
+    font-size: 11px;
+    min-height: 1px;
+    /* stop unwanted cascade */
+    margin: 0;
+  }
+  span {
+    display: block;
+    font-variant: small-caps;
+  }
+}
+
+/* Quick fix for items with extras in details dimensions headings
+   and/or materials paragraphs (appears inside H3 and P tags) */
+
+/* Special (temporary?) case  */
+
+.no-description {
+  h2 + p {
+    display: none;
+  }
+  #details {
+    float: left;
+  }
+}
+
+/* Go to top of page button (currently MIA) */
+
+.page-top span {
+  display: inline-block;
+  font-weight: bold;
+}
+
+/* ITEM-VARIANT page - contextual menu for other variants */
+
+#content > h2.item-has-variants {
+  border-bottom: dotted 1px $baseFontColour;
+  font-size: 22px;
+  margin-bottom: 0;
+  /* undo default for page title H2s */
+  padding-bottom: 2px;
+}
+
+.variant-nav {
+  list-style-type: none;
+  margin: 2px 0 40px 0;
+  padding: 0;
+  li {
+    border-right: solid 1px $baseFontColour;
+    float: left;
+    font-size: 11px;
+    line-height: 11px;
+    margin-bottom: 0.4em;
+    /* add space tween lines when nav items wrap */
+    margin-right: 0.5em;
+    padding-right: 0.5em;
+    &.end {
+      border-right: none;
+      padding-right: 0;
+      margin-right: 0;
+    }
+    a {
+      &:link, &:visited, &:active {
+        color: $baseFontColour;
+        /* bit darker than default */
+        font-size: 11px;
+        line-height: 11px;
+        margin: 0;
+        padding: 0;
+      }
+      &:hover {
+        color: #fff;
+        /* not redundant (links use diff color than base) */
+      }
+    }
+    &.current {
+      color: #fcfdfc;
+      /* bit darker than usual */
+    }
+  }
+}
+
+/* COLUMNED pages (floated for larger screens) BIO, COMMISSIONS, CONTACT */
+
+.columned {
+  h2 + div {
+    margin-top: 15px;
+  }
+  div {
+    + div {
+      margin-top: 15px;
+    }
+    img {
+      margin-bottom: 15px;
+    }
+  }
+  text-align: center;
+  > {
+    h2, div > :not(img) {
+      text-align: left;
+    }
+    img {
+      display: inline-block;
+    }
+  }
+}
+
+/* Center imgs if they can't take full width, left align text */
+
+.phone-numbers {
+  line-height: 1.5;
+  margin-bottom: 15px;
+  > {
+    dt, dd {
+      display: inline-block;
+    }
+    dt {
+      margin-right: 0.25em;
+      text-align: right;
+    }
+    dd {
+      width: 85%;
+    }
+  }
+}
+
+/* PROCESS page */
+// Note that Caption and Masonry "components" used by Process page
+.process-pg {
+  overflow: hidden;
+  /* hide slider associated vertical scrollbar (Edge) */
+}
+
+// Slider/Carousel was here
+
+/* FIND page */
+
+.find ul {
+  + div p {
+    width: 380px;
+  }
+  &.default {
+    margin-top: 15px;
+    a {
+      font-weight: bold;
+    }
+  }
+}
+
+/* SHOWS page */
+
+.shows {
+  h2 + h3 {
+    margin-top: 10px;
+  }
+  h3 {
+    margin: 10px 0;
+  }
+  ul.default li {
+    margin-left: 1px;
+  }
+}
+
+/* align with 2nd nav item */
+
+/* Experimental SHOWS page 
+   - list item filtering functionality */
+
+.experiment {
+  h3 {
+    border-bottom: dotted 1px $baseFontColour;
+    padding-bottom: 2px;
+  }
+  #shows {
+    clear: left;
+  }
+  h4 {
+    float: left;
+    font-size: 11px;
+    line-height: 11px;
+    margin: -8px 0 0 0;
+    padding: 0;
+    width: 18%;
+  }
+}
+
+#shows-filter {
+  float: left;
+  list-style-type: none;
+  margin: -8px 0 10px 0;
+  padding: 0;
+  width: 80%;
+  li {
+    float: left;
+    font-size: 11px;
+    /* IE7 doesn't listen if li has these rules */
+    line-height: 11px;
+    margin: 0 10px 10px 0;
+  }
+  .active-filter {
+    color: #fff;
+  }
+  button {
+    background: transparent;
+    border: 0;
+    color: $baseHeadColour;
+    cursor: pointer;
+    /* Buttons don’t make the cursor change in all browsers */
+    overflow: visible;
+    /* Shrinkwrap the text in IE7- */
+    font-size: 11px;
+    /* IE7 doesn't listen if li has these rules */
+    line-height: 11px;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+    /* -moz-user-select:text; Make button text selectable in Gecko */
+    &:hover, &:focus {
+      color: #fff;
+    }
+    &::-moz-focus-inner {
+      padding: 0;
+      border: 0;
+    }
+  }
+}
+
+/* linky buttons, thanks to:
+   http://www.456bereastreet.com/archive/201110/styling_button_elements_to_look_like_links/ */
+
+/* Remove mystery padding in Gecko browsers */
+
+.fade-in {
+  /* transition: opacity 1.0s cubic-bezier(0.1,0.6,1,1), height 0.25s cubic-bezier(0.1,0.6,1,1) 1.0s; */
+  transition: opacity 1s cubic-bezier(0.1, 0.6, 1, 1);
+}
+
+.fade-out {
+  /* transition: opacity 1.0s cubic-bezier(0.1,0.6,1,1), height 0.25s cubic-bezier(0.1,0.6,1,1) 1.0s; */
+  transition: opacity 1s cubic-bezier(0.1, 0.6, 1, 1);
+  opacity: 0;
+}
+
+.fade-in {
+  opacity: 1.0;
+}
+
+.hiding {
+  display: none;
+}
