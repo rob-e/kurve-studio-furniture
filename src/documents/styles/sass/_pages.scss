@@ -24,7 +24,9 @@
 .houzz-ftr {
   float: right;
   margin-top: -20px;
-  width: 36px;
+  width: auto; /* 36px */
+
+  > a { text-decoration: none; }
 }
 
 /* PAGE SPECIFIC MAIN CONTENT COMPONENTs **************************** */

@@ -38,8 +38,13 @@
 	<div id="wrap">
 	<%-@partial('header.html.eco', @)%>
 	<div id="body">
-		<nav>	
-			<ul class="nav">
+		<nav class="primary">
+			<input type="checkbox" class="burger-toggle" />
+		    <span></span>
+		    <span></span>
+		    <span></span>
+
+		    <ul class="nav">
 				<% for page in @getCollection("pages").toJSON(): %>
 			        <% if page.id is @document.id: %>
 			        	<li id="activePg"><span><%= page.shortTitle %></span></li>

@@ -48,14 +48,17 @@
 	<%-@partial('header.html.eco', @)%>
 
 	<div id="body">
-			
-		<nav>			
+		<nav class="primary">
+			<input type="checkbox" class="burger-toggle" />
+		    <span></span>
+		    <span></span>
+		    <span></span>	
 			<ul class="nav">
 				<% for page in @getCollection("pages").toJSON(): %>
 			        <% if page.shortTitle is "Portfolio": %>
 			        	<li>
 							<a href="portfolio01.html">portfolio</a>
-							<ul class="nav nav--subnav">
+							<ul class="nav--subnav">
 								<% for page in @getCollection("portfolio").toJSON(): %>
 									<% if page.id is @document.id: %>
 							        	<li id="active-gallery"><span><%= page.shortTitle %></span></li>
@@ -71,14 +74,9 @@
 			    <% end %>
 			</ul>
 		</nav>
-
 		<%- @content %>
-
 	</div>
-
 </div>
-
 <%-@partial('footer.html.eco', @)%>
-
 </body>
 </html>

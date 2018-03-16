@@ -113,8 +113,9 @@ footer {
   position: relative;
   > div {
     background: #000;
-    height: 60px;
+    height: 100px; /* 60px */
     margin-top: 20px;
+    padding-top: 200px;
   }
 }
 

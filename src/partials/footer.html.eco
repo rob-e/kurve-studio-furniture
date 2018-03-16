@@ -1,15 +1,16 @@
 
 <footer role="contentinfo">
 	<div>
-		<table class="houzz-ftr" cellpadding="0" cellspacing="0"><tr><td><a href="http://www.houzz.com/pro/kurveca/enrico-koenig" title="See Enrico's profile, reviews of his work, and more, on Houzz" target="_blank"><img src="http://st.houzz.com/static/badge36_36.png" alt="Remodeling and Home Design" width="36" height="36" border="0" /></a></td></tr></table>		
-		<small>Portfolio Contents</small>
-		<nav>
-			<ul class="nav">
-				<% for page in @getCollection("portfolio").toJSON(): %>			        
-			        <li><a href="<%= @getUrl(page) %>"><%= page.shortTitle %></a></li>
-			    <% end %>
-			</ul>
-		</nav>
+		<div class="houzz-ftr">
+			<a href="http://www.houzz.com/pro/kurveca/enrico-koenig" target="_blank" title="See Enrico Konig's Houzz account">
+				<img src="http://st.hzcdn.com/static/badge_20_9@2x.png" alt="Enrico König is Recommended on Houzz" width="80" height="80" border="0" />
+				<img src="https://st.hzcdn.com/static/badge_44_8@2x.png" alt="Best of Houzz: Service Award 2018" width="80" height="80" border="0" />
+				<img src="http://st.hzcdn.com/static/badge_41_8@2x.png" alt="Best of Houzz: Service Award 2017" width="80" height="80" border="0" />
+				<img src="http://st.houzz.com/static/badge_16_8.png" alt="Best of Houzz: Service Award 2015" width="80" height="80" border="0" />
+			</a>
+			<a href="https://www.instagram.com/enrico_konig/" class="instagram-link" target="_blank" title="See my Instagram account dedicated to furniture and flyfishing"><i class="demo-icon icon-instagram">&#xf32d;</i></a>
+		</div>
+		
 		<ul class="site-info">
 			<li><small>Furniture photos by Goran Basaric</small></li>
 			<li><small><span>Studio furniture</span> by Enrico K&#246;nig</small></li>

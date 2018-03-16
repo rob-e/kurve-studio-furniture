@@ -43,11 +43,13 @@
 
 <body>
 	<div id="wrap">
-		
 		<%-@partial('header.html.eco', @)%>
-
 		<div id="body">
-			<nav>
+			<nav class="primary">
+				<input type="checkbox" class="burger-toggle" />
+			    <span></span>
+			    <span></span>
+			    <span></span>
 				<ul class="nav">
 					<% for page in @getCollection("pages").toJSON(): %>
 				        <% if page.shortTitle is "Portfolio": %>
@@ -69,8 +71,6 @@
 				    <% end %>
 				</ul>
 			</nav>
-						
-				
 		<% if @document.hasVariant is true: %>
 			<div id="content" class="item variant">
 				<h2 class="item-has-variants"><%- @document.baseItemTitle %></h2>
@@ -98,12 +98,10 @@
 		<% else: %>
         	<main id="content" class="item" role="main">
         <% end %>
-				
 				<h2><%- @document.itemTitle %></h2>
 				<p>
 					<%- @document.itemDescription %>
 				</p>
-
 				<div id="details">
 					<h3><%- @document.dimensions %></h3>
 					<p>
@@ -113,22 +111,13 @@
 					    <%- @document.madeWith2 %>
 					</p>
 				</div>
-
 				<%- @content %>	
-				
 				<p class="photo-attribution">
 					Photos by Goran Basaric.
 				</p>
 			</main>
 		</div>
-
 	</div>
-
 	<%-@partial('footer.html.eco', @)%>
-
-	<!-- not really needed -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="../vendor/jquery-1.7.2.min.js"><\/script>')</script>
-
 </body>
 </html>

@@ -10,6 +10,79 @@
 @import "sliderCarousel";
 @import "widgetsComponents";
 
+/* Fontello: all for one icon */
+/*
+.the-icons {
+  font-size: 14px;
+  line-height: 24px;
+}
+.switch {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  color: #666;
+}
+.switch input {
+  margin-right: 0.3em;
+}
+.codesOn .i-name {
+  display: none;
+}
+.codesOn .i-code {
+  display: inline;
+}
+.i-code {
+  display: none;
+}*/
+@font-face {
+  font-family: 'fontello';
+  src: url('./font/fontello.eot?2264582');
+  src: url('./font/fontello.eot?2264582#iefix') format('embedded-opentype'),
+       url('./font/fontello.woff?2264582') format('woff'),
+       url('./font/fontello.ttf?2264582') format('truetype'),
+       url('./font/fontello.svg?2264582#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.demo-icon {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  /* height: 80px; */
+  width: 80px;
+  margin-right: 0;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  /* line-height: 80px; 1em */
+ 
+  /* You can be more comfortable with increased icons size */
+  font-size: 80px; /* */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a.instagram-link {
+  color: #fff;
+  margin-left: 1.25em;
+
+  > .demo-icon {
+    /* fix for positioning issue in this context */
+    position: relative;
+    bottom: -24px;
+  }
+}
 
 // What to do? Scatter query rules into the relevant partials (so as to make stand alone components) ????
 // Just keep it simple and follow previous "plan" of manageable chunks ????
@@ -44,7 +117,8 @@
     line-height: 1.17em;
   }
   /* provides bit of bg-img around Md View */
-  #wrap, footer {
+  #wrap, 
+  footer {
     margin: 0 4px;
     width: auto;
   }
@@ -58,8 +132,11 @@
     width: 516px;
     /* was 535 */
   }
-  header div, footer div {
+  header div {
     padding: 15px 20px;
+  }
+  footer > div {
+    padding: 200px 20px 15px 20px;
   }
   header h1 {
     width: 42%;
@@ -227,7 +304,7 @@
   header div {
     margin-top: 0;
   }
-  footer div {
+  footer > div {
     margin-bottom: 0;
   }
   .site-info {

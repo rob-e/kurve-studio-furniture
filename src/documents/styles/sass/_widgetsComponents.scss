@@ -67,15 +67,15 @@
     opacity: 0;
   }
 }
-	.captioned--ul:before {
-	  // position the hover-bait (i.e. ul = upper left)
-	  top: 10px;
-	  left: 10px;
-	}
-	.captioned--bl:before {
-	  bottom: 10px;
-	  left: 10px;
-	}
+  .captioned--ul:before {
+    // position the hover-bait (i.e. ul = upper left)
+    top: 10px;
+    left: 10px;
+  }
+  .captioned--bl:before {
+    bottom: 10px;
+    left: 10px;
+  }
 // Consolidate into previous .captioned ????
 .captioned {
   > figcaption {
@@ -95,15 +95,15 @@
     opacity: 0.75;
   }
 }
-	.captioned--ul > figcaption {
-	  top: 5px;
-	  left: -30%;
-	}
-	.captioned--bl > figcaption {
-	  bottom: 5px;
-	  left: -30%;
-	}
-	.captioned--ul:hover > figcaption, 
-	.captioned--bl:hover > figcaption {
-	  left: 0;
-	}
+  .captioned--ul > figcaption {
+    top: 5px;
+    left: -30%;
+  }
+  .captioned--bl > figcaption {
+    bottom: 5px;
+    left: -30%;
+  }
+  .captioned--ul:hover > figcaption, 
+  .captioned--bl:hover > figcaption {
+    left: 0;
+  }

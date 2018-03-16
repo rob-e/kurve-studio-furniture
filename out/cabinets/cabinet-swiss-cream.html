@@ -28,12 +28,12 @@
 	cursor: wait !important;
 	opacity: 0;
 	transition: opacity 0.5s ease;
-}</style><link  rel="stylesheet" href="../styles/kurve-style.css?d=Nov102017" /><!--<![endif]-->
+}</style><link  rel="stylesheet" href="../styles/kurve-style.css?d=Mar162018" /><!--<![endif]-->
 	<!--[if lt IE 9]><style >html.wait {
 	cursor: wait !important;
 	opacity: 0;
 	transition: opacity 0.5s ease;
-}</style><link  rel="stylesheet" href="../styles/kurve-ie876.css?d=Nov102017" /><![endif]-->
+}</style><link  rel="stylesheet" href="../styles/kurve-ie876.css?d=Mar162018" /><![endif]-->
 
 	<!-- FIX!!! - NOT FINDING the shiv (defer fixed by optional parameter in call to add) -->
 	<!-- Polyfill and fallback (place after CSS) -->
@@ -96,7 +96,6 @@ var inject = function(){
 
 <body>
 	<div id="wrap">
-		
 		<header role="banner">
 	<div>
 		<h1><a href="../index.html"><img src="../images/logo.gif" alt="Kurve, studio furniture" width="107" /></a></h1>
@@ -109,9 +108,12 @@ var inject = function(){
 		</address>
 	</div>	   
 </header>
-
 		<div id="body">
-			<nav>
+			<nav class="primary">
+				<input type="checkbox" class="burger-toggle" />
+			    <span></span>
+			    <span></span>
+			    <span></span>
 				<ul class="nav">
 					
 				        
@@ -173,17 +175,13 @@ var inject = function(){
 				    
 				</ul>
 			</nav>
-						
-				
 		
         	<main id="content" class="item" role="main">
         
-				
 				<h2>Swiss cream cabinet</h2>
 				<p>
 					The crisp juxtaposition of richly figured Claro walnut against a white background. Features solid wood drawer boxes and drawer dividers, and full-extension slides. Handles are handmade, black walnut on stainless steel posts. Back on centre portion can be removed for easy access to media wiring. Its companion piece is the <a href="../tables/swiss-cream-coffee-table.html">Swiss cream coffee table</a>.
 				</p>
-
 				<div id="details">
 					<h3>Length 62.75" &nbsp; Depth 20.75" &nbsp; Height 22.75"</h3>
 					<p>
@@ -193,39 +191,28 @@ var inject = function(){
 					    Finished with a low-<abbr title="Volatile organic compound">VOC</abbr> and a very durable catalyzed paint
 					</p>
 				</div>
-
 				<!-- height="355" -->
 				<img src="../images/cabinets/swiss-cream-bowed-front-cabinet-curly-claro-walnut.jpg" width="695" alt="Swiss cream bowed-front cabinet in curly claro walnut" />
 				<img src="../images/cabinets/swiss-cream-cabinet-drawer-front.jpg" width="695" alt="Swiss cream cabinet drawer front" />
 				<img src="../images/cabinets/swiss-cream-cabinet-cd-drawer.jpg" width="695" alt="Swiss cream cabinet cd drawer" />	
-				
 				<p class="photo-attribution">
 					Photos by Goran Basaric.
 				</p>
 			</main>
 		</div>
-
 	</div>
-
 	<footer role="contentinfo">
 	<div>
-		<table class="houzz-ftr" cellpadding="0" cellspacing="0"><tr><td><a href="http://www.houzz.com/pro/kurveca/enrico-koenig" title="See Enrico's profile, reviews of his work, and more, on Houzz" target="_blank"><img src="http://st.houzz.com/static/badge36_36.png" alt="Remodeling and Home Design" width="36" height="36" border="0" /></a></td></tr></table>		
-		<small>Portfolio Contents</small>
-		<nav>
-			<ul class="nav">
-							        
-			        <li><a href="/new-item-gallery.html">New</a></li>
-			    			        
-			        <li><a href="/table-gallery.html">Tables</a></li>
-			    			        
-			        <li><a href="/cabinet-gallery.html">Cabinets</a></li>
-			    			        
-			        <li><a href="/tray-gallery.html">Trays</a></li>
-			    			        
-			        <li><a href="/miscellaneous-gallery.html">Miscellaneous</a></li>
-			    
-			</ul>
-		</nav>
+		<div class="houzz-ftr">
+			<a href="http://www.houzz.com/pro/kurveca/enrico-koenig" target="_blank" title="See Enrico Konig's Houzz account">
+				<img src="http://st.hzcdn.com/static/badge_20_9@2x.png" alt="Enrico König is Recommended on Houzz" width="80" height="80" border="0" />
+				<img src="https://st.hzcdn.com/static/badge_44_8@2x.png" alt="Best of Houzz: Service Award 2018" width="80" height="80" border="0" />
+				<img src="http://st.hzcdn.com/static/badge_41_8@2x.png" alt="Best of Houzz: Service Award 2017" width="80" height="80" border="0" />
+				<img src="http://st.houzz.com/static/badge_16_8.png" alt="Best of Houzz: Service Award 2015" width="80" height="80" border="0" />
+			</a>
+			<a href="https://www.instagram.com/enrico_konig/" class="instagram-link" target="_blank" title="See my Instagram account dedicated to furniture and flyfishing"><i class="demo-icon icon-instagram">&#xf32d;</i></a>
+		</div>
+		
 		<ul class="site-info">
 			<li><small>Furniture photos by Goran Basaric</small></li>
 			<li><small><span>Studio furniture</span> by Enrico K&#246;nig</small></li>
@@ -245,10 +232,5 @@ var inject = function(){
 	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	})();	
 </script>
-
-	<!-- not really needed -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="../vendor/jquery-1.7.2.min.js"><\/script>')</script>
-
 </body>
 </html>
