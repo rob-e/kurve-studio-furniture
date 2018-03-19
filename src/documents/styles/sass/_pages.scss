@@ -6,28 +6,6 @@
   margin: 20px 0;
 }
 
-/* Widget-like elements ********************************************* */
-/* Houzz badges */
-
-.houzz-badges > a {
-  display: inline-block;
-  text-decoration: none;
-}
-
-.houzz-home {
-  /* Note: appears in home page main content area */
-  float: right;
-  margin: 10em 0 3em 0;
-  text-align: right;
-}
-
-.houzz-ftr {
-  float: right;
-  margin-top: -20px;
-  width: auto; /* 36px */
-
-  > a { text-decoration: none; }
-}
 
 /* PAGE SPECIFIC MAIN CONTENT COMPONENTs **************************** */
 /* HOME page */

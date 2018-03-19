@@ -45,7 +45,7 @@
   font-style: normal;
 }
 
-.demo-icon {
+.icon-instagram {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
@@ -76,12 +76,12 @@
 a.instagram-link {
   color: #fff;
   margin-left: 1.25em;
-
-  > .demo-icon {
-    /* fix for positioning issue in this context */
-    position: relative;
-    bottom: -24px;
-  }
+  text-decoration: none;
+}
+.icon-instagram {
+  /* fix for positioning issue in this context */
+  position: relative;
+  bottom: -24px; // -32 best for large screen; -24 for small screen; ? for medium
 }
 
 // What to do? Scatter query rules into the relevant partials (so as to make stand alone components) ????
@@ -104,6 +104,10 @@ a.instagram-link {
     /* override??? */
     float: right;
     width: 46%;
+  }
+
+  .icon-instagram {
+    bottom: -32px; // -32 best for large screen; -24 for small screen; ? for medium
   }
 }
 

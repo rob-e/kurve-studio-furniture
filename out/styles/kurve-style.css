@@ -493,30 +493,6 @@ input.burger-toggle:checked ~ ul.nav > li > .nav--subnav > li:last-child {
   margin: 20px 0;
 }
 
-/* Widget-like elements ********************************************* */
-/* Houzz badges */
-.houzz-badges > a {
-  display: inline-block;
-  text-decoration: none;
-}
-
-.houzz-home {
-  /* Note: appears in home page main content area */
-  float: right;
-  margin: 10em 0 3em 0;
-  text-align: right;
-}
-
-.houzz-ftr {
-  float: right;
-  margin-top: -20px;
-  width: auto;
-  /* 36px */
-}
-.houzz-ftr > a {
-  text-decoration: none;
-}
-
 /* PAGE SPECIFIC MAIN CONTENT COMPONENTs **************************** */
 /* HOME page */
 .home-title {
@@ -941,6 +917,26 @@ input.kurve-prevNav {
     transform: translate3d(4px, 0, 0);
   }
 }
+/* Widget-like elements ********************************************* */
+.houzz-link:link {
+  display: flex;
+  text-decoration: none;
+}
+.houzz-link:link > img {
+  border: none;
+  width: 80px;
+  height: auto;
+}
+
+.social-links {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -20px;
+}
+.social-links > .houzz-link {
+  justify-content: flex-end;
+}
+
 /**** Widgetville ****/
 /* Highlight Pane */
 .highlight-pane {
@@ -1075,7 +1071,7 @@ input.kurve-prevNav {
   font-weight: normal;
   font-style: normal;
 }
-.demo-icon {
+.icon-instagram {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
@@ -1103,8 +1099,10 @@ input.kurve-prevNav {
 a.instagram-link {
   color: #fff;
   margin-left: 1.25em;
+  text-decoration: none;
 }
-a.instagram-link > .demo-icon {
+
+.icon-instagram {
   /* fix for positioning issue in this context */
   position: relative;
   bottom: -24px;
@@ -1126,6 +1124,10 @@ a.instagram-link > .demo-icon {
     /* override??? */
     float: right;
     width: 46%;
+  }
+
+  .icon-instagram {
+    bottom: -32px;
   }
 }
 @media only screen and (min-width: 768px) {
