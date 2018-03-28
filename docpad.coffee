@@ -16,7 +16,7 @@ docpadConfig = {
         portfolio: ->
         	@getCollection("html").findAllLive({pageType: 'portfolio'}, [{order:1}])
         newPieces: ->
-            @getCollection("html").findAllLive({relativeOutDirPath: /(?:tables|cabinets)/, isNew: true}, [{order:1}])
+            @getCollection("html").findAllLive({relativeOutDirPath: /(?:tables|cabinets|miscellaneous)/, isNew: true}, [{order:1}])
         tables: ->
         	@getCollection("html").findAllLive({relativeOutDirPath: 'tables'}, [{order:1}])
         cabinets: ->

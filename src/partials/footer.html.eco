@@ -1,4 +1,3 @@
-
 <footer role="contentinfo">
 	<div>
 		<div class="social-links">
@@ -12,7 +11,7 @@
 		</div>
 		<ul class="site-info">
 			<li><small>Furniture photos by Goran Basaric</small></li>
-			<li><small><span>Studio furniture</span> by Enrico K&#246;nig</small></li>
+			<li><small><span><%- @site.title %> Studio furniture</span> by Enrico K&#246;nig</small></li>
 		</ul>
 	</div>
 </footer>
