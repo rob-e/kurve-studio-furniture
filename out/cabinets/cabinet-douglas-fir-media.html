@@ -24,66 +24,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- CSS -->
-	<!--[if gte IE 9]><!--><style >html.wait {
-	cursor: wait !important;
-	opacity: 0;
-	transition: opacity 0.5s ease;
-}</style><link  rel="stylesheet" href="../styles/kurve-style.css?d=Mar272018" /><!--<![endif]-->
-	<!--[if lt IE 9]><style >html.wait {
-	cursor: wait !important;
-	opacity: 0;
-	transition: opacity 0.5s ease;
-}</style><link  rel="stylesheet" href="../styles/kurve-ie876.css?d=Mar272018" /><![endif]-->
+	<!--[if gte IE 9]><!--><link  rel="stylesheet" href="../styles/kurve-style.css?d=Apr092018" /><!--<![endif]-->
+	<!--[if lt IE 9]><link  rel="stylesheet" href="../styles/kurve-ie876.css?d=Apr092018" /><![endif]-->
 
 	<!-- FIX!!! - NOT FINDING the shiv (defer fixed by optional parameter in call to add) -->
 	<!-- Polyfill and fallback (place after CSS) -->
 	<!--[if lt IE 9]>
-		<script >(function(){
-	/* Did we just livereload? */
-var log = !!(localStorage && console && console.log && true);
-if ( log && localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
-	localStorage.removeItem('/docpad-livereload/reloaded');
-	console.log('LiveReload completed at', new Date())
-}
-
-/* Listen for the regenerated event and perform a reload of the page when the event occurs */
-var listen = function(){
-	var primus = new Primus('/docpad-livereload');
-	primus.on('data', function(data){
-		if ( data && data.message ) {
-			if ( data.message === 'generateBefore' ) {
-				if ( log ) {
-					console.log('LiveReload started at', new Date());
-				}
-				if ( typeof document.getElementsByTagName !== 'undefined' ) {
-	document.getElementsByTagName('html')[0].className += ' wait';
-}
-			}
-			else if ( data.message === 'generateAfter' ) {
-				if ( log ) {
-					localStorage.setItem('/docpad-livereload/reloaded', 'yes');
-				}
-				document.location.reload();
-			}
-		}
-	});
-};
-	/* Inject socket into our page */
-var inject = function(){
-	var t = document.createElement('script');
-	t.type = 'text/javascript';
-	t.async = 'async';
-	t.src = '/docpad-livereload/primus.js';
-	t.onload = listen;
-	var s = document.getElementsByTagName('script')[0];
-	s.parentNode.insertBefore(t, s);
-};
-	if ( typeof Primus !== 'undefined' ) {
-		listen();
-	} else {
-		inject();
-	}
-})();</script><script  src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script  src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<script type="text/javascript">window.html5 || document.write('<script type="text/javascript" src="../vendor/html5shiv/dist/html5shiv.js"><\/script>')</script>
 	<![endif]-->
 	
@@ -117,7 +64,7 @@ var inject = function(){
 				<ul class="nav">
 					
 				        
-				        	<li><a href="/index.html">home</a></li>
+				        	<li><a href="http://www.kurve.ca/index.html">home</a></li>
 				        
 				    
 				        
@@ -126,23 +73,23 @@ var inject = function(){
 								<ul class="nav nav--subnav">
 									
 										
-								        	<li><a href="/new-item-gallery.html">New</a></li>
+								        	<li><a href="http://www.kurve.ca/new-item-gallery.html">New</a></li>
 								        
 								    
 										
-								        	<li><a href="/table-gallery.html">Tables</a></li>
+								        	<li><a href="http://www.kurve.ca/table-gallery.html">Tables</a></li>
 								        
 								    
 										
-								        	<li id="activePg"><a href="/cabinet-gallery.html">Cabinets</a></li>
+								        	<li id="activePg"><a href="http://www.kurve.ca/cabinet-gallery.html">Cabinets</a></li>
 								        
 								    
 										
-								        	<li><a href="/tray-gallery.html">Trays</a></li>
+								        	<li><a href="http://www.kurve.ca/tray-gallery.html">Trays</a></li>
 								        
 								    
 										
-								        	<li><a href="/miscellaneous-gallery.html">Miscellaneous</a></li>
+								        	<li><a href="http://www.kurve.ca/miscellaneous-gallery.html">Miscellaneous</a></li>
 								        
 								    
 								</ul>
@@ -150,27 +97,27 @@ var inject = function(){
 				        
 				    
 				        
-				        	<li><a href="/bio.html">Bio</a></li>
+				        	<li><a href="http://www.kurve.ca/bio.html">Bio</a></li>
 				        
 				    
 				        
-				        	<li><a href="/process.html">process</a></li>
+				        	<li><a href="http://www.kurve.ca/process.html">process</a></li>
 				        
 				    
 				        
-				        	<li><a href="/find.html">where to find</a></li>
+				        	<li><a href="http://www.kurve.ca/find.html">where to find</a></li>
 				        
 				    
 				        
-				        	<li><a href="/commissions.html">commissions</a></li>
+				        	<li><a href="http://www.kurve.ca/commissions.html">commissions</a></li>
 				        
 				    
 				        
-				        	<li><a href="/shows-events-press.html">shows, events, press</a></li>
+				        	<li><a href="http://www.kurve.ca/shows-events-press.html">shows, events, press</a></li>
 				        
 				    
 				        
-				        	<li><a href="/contact.html">Contact</a></li>
+				        	<li><a href="http://www.kurve.ca/contact.html">Contact</a></li>
 				        
 				    
 				</ul>
@@ -212,7 +159,9 @@ var inject = function(){
 				<img src="http://st.hzcdn.com/static/badge_41_8@2x.png" alt="Best of Houzz: Service Award 2017" />
 				<img src="http://st.houzz.com/static/badge_16_8.png" alt="Best of Houzz: Service Award 2015" />
 			</a>
-			<a href="https://www.instagram.com/enrico_konig/" class="instagram-link" target="_blank"  rel="noopener" title="See Enrico's Instagram account dedicated to furniture and flyfishing"><i class="icon-instagram">&#xf32d;</i></a>
+			<a class="instagram-link" href="https://www.instagram.com/enrico_konig/" target="_blank"  rel="noopener" title="See Enrico's Instagram account dedicated to furniture and flyfishing">
+				<img src="../images/instagram-glyph-logo-May2016.png" alt="See Enrico's Instagram account" />
+			</a>
 		</div>
 		<ul class="site-info">
 			<li><small>Furniture photos by Goran Basaric</small></li>

@@ -34,37 +34,12 @@
 .nav--subnav {
   margin-left: 1.25rem;
 }
-/*
-.nav--subnav {
-  list-style-type: none;
-  margin-left: 1.25rem;
-  > {
-      li {
-        text-transform: capitalize;
-        // Note: Span used for current (unclickable) Nav Item
-        > span {
-            display: block;
-            padding: 8px 3px;
-        }
-        > a {
-            &:link, &:hover, &:visited, &:active {
-              display: block;
-              padding: 8px 3px;
-              text-decoration: none;
-            }
-          }
-      }
-      #active-gallery {
-        color: #fff;
-      }
-  }
-}
-*/
 
 /* Burger Time */
 nav.primary { // Note: this element is the overall container
   position: relative;
   transform-origin: 0% 0%;
+  -webkit-transform-origin: 0% 0%;
   z-index: 20; // Cuz Process page has slider with z-index of 10
 
   // Burger made of 3 spans (& invisible checkbox detailed in following section)
@@ -78,15 +53,21 @@ nav.primary { // Note: this element is the overall container
       border-radius: 3px;
       z-index: 1;
       transform-origin: 4px 0px;
+      -webkit-transform-origin: 4px 0px;
       transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                  background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                  opacity 0.55s ease;
+      -webkit-transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                   background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                   opacity 0.55s ease;
     }
   > span:first-child {
+      -webkit-transform-origin: 0% 0%;
       transform-origin: 0% 0%;
     }
   > span:nth-last-child(2) {
       transform-origin: 0% 100%;
+      -webkit-transform-origin: 0% 100%;
     }
 }  
 // Burger checkbox
@@ -109,16 +90,19 @@ input.burger-toggle {
 input.burger-toggle:checked ~ span { 
   opacity: 1;
   transform: rotate(45deg) translate(-1px, 0px); // -2px, -1px
+  -webkit-transform: rotate(45deg) translate(-1px, 0px); // -2px, -1px
   background: #fff; // #232323 makes X gray
 }
 // Hide middle bar (AKA the patty)
 input.burger-toggle:checked ~ span:nth-last-child(3) {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
+  -webkit-transform: rotate(0deg) scale(0.2, 0.2);
 }
 // Rotate last bar (opposite direction as 1st)
 input.burger-toggle:checked ~ span:nth-last-child(2) {
   transform: rotate(-45deg) translate(0, 1px); // 0, -1px
+  -webkit-transform: rotate(-45deg) translate(0, 1px); // 0, -1px
 }
 
 // Offscreen Nav List
@@ -129,8 +113,11 @@ ul.nav { // Positioned near top left of main content area (#body)
   background: #222; // Distinctive from what it sits atop
   -webkit-font-smoothing: antialiased; // Stops text flicker in safari
   transform-origin: 0% 0%;
+  -webkit-transform-origin: 0% 0%;
   transform: translate(-110%, 0);
+  -webkit-transform: translate(-110%, 0);
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  -webkit-
 
   > li {
       margin-bottom: 0.2rem;
@@ -138,6 +125,7 @@ ul.nav { // Positioned near top left of main content area (#body)
       > a {
           // padding: 10px 0;
           transition: color 0.3s ease;
+          -webkit-transition: color 0.3s ease;
         }
     }
 }
@@ -145,6 +133,7 @@ ul.nav { // Positioned near top left of main content area (#body)
 // Note: this needs to follow preceding Burger & Offscreen rules
 input.burger-toggle:checked ~ ul.nav {
   transform: none;
+  -webkit-transform: none;
   > {
     li {
       border-bottom: 1px solid #000;

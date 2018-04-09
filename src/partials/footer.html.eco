@@ -7,7 +7,9 @@
 				<img src="http://st.hzcdn.com/static/badge_41_8@2x.png" alt="Best of Houzz: Service Award 2017" />
 				<img src="http://st.houzz.com/static/badge_16_8.png" alt="Best of Houzz: Service Award 2015" />
 			</a>
-			<a href="https://www.instagram.com/enrico_konig/" class="instagram-link" target="_blank"  rel="noopener" title="See Enrico's Instagram account dedicated to furniture and flyfishing"><i class="icon-instagram">&#xf32d;</i></a>
+			<a class="instagram-link" href="https://www.instagram.com/enrico_konig/" target="_blank"  rel="noopener" title="See Enrico's Instagram account dedicated to furniture and flyfishing">
+				<img src="<%= if @document.altLogoSrc then '../images/instagram-glyph-logo-May2016.png' else 'images/instagram-glyph-logo-May2016.png' %>" alt="See Enrico's Instagram account" />
+			</a>
 		</div>
 		<ul class="site-info">
 			<li><small>Furniture photos by Goran Basaric</small></li>

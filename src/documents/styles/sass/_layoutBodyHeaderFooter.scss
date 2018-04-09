@@ -33,11 +33,11 @@ html, body {
   height: 100%;
 }
 #body {
-  padding-bottom: 130px;
+  padding-bottom: 180px;
 }
 footer {
   position: relative;
-  margin-top: -110px !important;
+  margin-top: -160px !important;
 }
 header {
   position: relative;
@@ -113,7 +113,7 @@ footer {
   position: relative;
   > div {
     background: #000;
-    height: 100px; /* 60px */
+    height: 180px; // 100px (note: increased for sake of flexbox social icons)
     margin-top: 20px;
     padding-top: 200px;
   }

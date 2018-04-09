@@ -1,25 +1,80 @@
 // Widgets (basically, smaller structures) and Components
-
-/* Widget-like elements ********************************************* */
-
-.houzz-link:link {
-  display: flex;
-  text-decoration: none;
-  > img {
-      border: none;
-      width: 80px;
-      height: auto;
-    }
-}
+/* Widgets ********************************************* */
 
 .social-links {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
 
-  margin-top: -20px; // sticky footer
+  align-items: center; // no stretching
+  justify-content: center; // right align
+  flex-wrap: wrap;
+
+  margin-top: -0.5em; // probably cuz old sticky footer technique
 
   > .houzz-link {
-      justify-content: flex-end;
+      flex-basis: 100%;
+      // width: 350px; // iPhone6 no like width %
+      // flex-basis: 375px;
+  }
+  // > .instagram-link { flex-basis: 100%; }
+}
+a.houzz-link:link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-content: space-between; // no stretching flex-start
+  justify-content: center;
+
+  margin-bottom: 40px;
+  text-decoration: none;
+
+  > img {
+      border: none;
+
+      flex-grow: 0;
+      flex-shrink: 1;
+      // flex-basis: 80px;
+      height: 80px; // NO LIKE!!!!
+      width: 80px;
+    }
+}
+a.instagram-link {
+  color: #fff;
+  text-decoration: none;
+
+  flex-grow: 0;
+  flex-shrink: 0; 
+  flex-basis: 70px;
+}
+
+@media only screen and (min-width: 480px) {
+  .social-links {
+    justify-content: flex-end; // right align
+    flex-wrap: nowrap;
+  }
+  a.houzz-link:link {
+    flex-basis: auto;
+    margin-bottom: 0;
+
+    > img {
+      flex-basis: 70px;
+      height: 70px;
+      width: 70px;
+    }
+  }
+  a.instagram-link {
+      flex-basis: 70px;
+      height: 70px;
+      width: 70px;
+      margin-left: 40px; // Instagram demands certain amount of surrounding empty space
+  }
+  footer {
+    > div {
+      height: 110px; // 100px (note: increased then reduced for sake of flexbox social icons)
+    }
   }
 }
 
